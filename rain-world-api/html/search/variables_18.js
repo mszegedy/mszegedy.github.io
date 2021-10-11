@@ -1,12 +1,13 @@
 var searchData=
 [
-  ['x_0',['x',['../classFCharInfo.html#a5e986365182eaa19e68c9256bbaecc86',1,'FCharInfo.x()'],['../structPlayer_1_1InputPackage.html#a146925a240b05abd9864c0818e3b9412',1,'Player.InputPackage.x()'],['../structRWCustom_1_1IntVector2.html#a3d47dce23ecb3b4e12066439844859ca',1,'RWCustom.IntVector2.x()'],['../classShortcutMapper.html#ae3f94a6c060b6eb9e4065f37c7d74de0',1,'ShortcutMapper.x()'],['../classQuickPathFinder_1_1PathNode.html#a6fe226072ed32b3ebc34fb780d5cfb64',1,'QuickPathFinder.PathNode.x()'],['../structWorldCoordinate.html#a0efea39cf5d1c67116baa16ae7957242',1,'WorldCoordinate.x()'],['../classAImapper.html#a09d4988f82df112c46b470e9d2090229',1,'AImapper.x()'],['../classAIdataPreprocessor_1_1VisibilityMapper.html#afcb8d11f0981554c0480f6db75ff56bc',1,'AIdataPreprocessor.VisibilityMapper.x()'],['../classFParticle.html#a3e837ce9ff73b5c6df5b0fcdb247663c',1,'FParticle.x()'],['../classFParticleDefinition.html#a0c39e6bee42d039fd35ff3e18ddd4304',1,'FParticleDefinition.x()']]],
-  ['x_1',['X',['../classRoom_1_1Tile.html#a5cd3bb7696da71f061c4dd71da1dfca7',1,'Room::Tile']]],
-  ['xadvance_2',['xadvance',['../classFCharInfo.html#a642c6e7eab35a32e8868b7775e262902',1,'FCharInfo']]],
-  ['xdist_3',['xDist',['../classHUD_1_1PlayerSpecificMultiplayerHud_1_1KillList_1_1SymbolHolder.html#a6f7d0669eac1173abef663a4451be9bf',1,'HUD::PlayerSpecificMultiplayerHud::KillList::SymbolHolder']]],
-  ['xflip_4',['xFlip',['../classScavengerCosmetic_1_1BackTuftsAndRidges.html#acbba322073447b0d7bc8cbe78663b012',1,'ScavengerCosmetic::BackTuftsAndRidges']]],
-  ['xorientation_5',['xOrientation',['../classHUD_1_1DialogBox_1_1Message.html#aaa07ba67f880c472586606ab8420015e',1,'HUD::DialogBox::Message']]],
-  ['xrotat_6',['xRotat',['../classStarMatrix.html#a45ba4fcbf0a7bd397a9b4439e2f94ddc',1,'StarMatrix.xRotat()'],['../classOverseerGraphics_1_1HologramMatrix.html#acded4b5f9b2e0a03911a2250d59146a8',1,'OverseerGraphics.HologramMatrix.xRotat()']]],
-  ['xrotatvel_7',['xRotatVel',['../classStarMatrix.html#aca3e073e196af6023e9a69f1bd66344c',1,'StarMatrix']]],
-  ['xrotatvelvel_8',['xRotatVelVel',['../classStarMatrix.html#a25cd7986fcc1a365c672fbda1ab2399e',1,'StarMatrix']]]
+  ['x_0',['x',['../classAImapper.html#a58999188957786b56f9bb91470a3f119',1,'AImapper']]],
+  ['x_1',['X',['../classRoom_1_1Tile.html#a3778be2e03d99ae3e3134cff1417be4f',1,'Room::Tile']]],
+  ['x_2',['x',['../structPlayer_1_1InputPackage.html#a8ba144f34c244ca26183937f99cf3af0',1,'Player.InputPackage.x()'],['../structRWCustom_1_1IntVector2.html#a3d47dce23ecb3b4e12066439844859ca',1,'RWCustom.IntVector2.x()'],['../classShortcutMapper.html#a7aa2414287b03c9278189c899bf34b50',1,'ShortcutMapper.x()'],['../classQuickPathFinder_1_1PathNode.html#a7c1c87ac1e43b3a3b5ba26b6ba86ee16',1,'QuickPathFinder.PathNode.x()'],['../structWorldCoordinate.html#a98177f07e492e5c36d9c781f618081f0',1,'WorldCoordinate.x()'],['../classFParticle.html#a28358e081933c3efcdf5c3757788c791',1,'FParticle.x()'],['../classFParticleDefinition.html#a594ad7422b151867367efe32d781823b',1,'FParticleDefinition.x()'],['../classFCharInfo.html#a342dbce44a7144df40ed5d5167c9912e',1,'FCharInfo.x()'],['../classAIdataPreprocessor_1_1VisibilityMapper.html#ac8d987937b9bf16aa5a73dc8bd05a03e',1,'AIdataPreprocessor.VisibilityMapper.x()']]],
+  ['xadvance_3',['xadvance',['../classFCharInfo.html#a0e6c3bea1a2206bc650c0508bde23e55',1,'FCharInfo']]],
+  ['xdist_4',['xDist',['../classHUD_1_1PlayerSpecificMultiplayerHud_1_1KillList_1_1SymbolHolder.html#a6f7d0669eac1173abef663a4451be9bf',1,'HUD::PlayerSpecificMultiplayerHud::KillList::SymbolHolder']]],
+  ['xflip_5',['xFlip',['../classScavengerCosmetic_1_1BackTuftsAndRidges.html#acbba322073447b0d7bc8cbe78663b012',1,'ScavengerCosmetic::BackTuftsAndRidges']]],
+  ['xorientation_6',['xOrientation',['../classHUD_1_1DialogBox_1_1Message.html#aaa07ba67f880c472586606ab8420015e',1,'HUD::DialogBox::Message']]],
+  ['xrotat_7',['xRotat',['../classStarMatrix.html#ab1a24c6147d05651e49030026ba605f1',1,'StarMatrix.xRotat()'],['../classOverseerGraphics_1_1HologramMatrix.html#a4a64b40d26cef3ef309c54e27dff7704',1,'OverseerGraphics.HologramMatrix.xRotat()']]],
+  ['xrotatvel_8',['xRotatVel',['../classStarMatrix.html#a0ecdea733a0c2e8e9149e2abde6a57ed',1,'StarMatrix']]],
+  ['xrotatvelvel_9',['xRotatVelVel',['../classStarMatrix.html#a46a3cd6253d34f04aade640dcf560210',1,'StarMatrix']]]
 ];

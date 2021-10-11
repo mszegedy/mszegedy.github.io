@@ -79,10 +79,14 @@ Inheritance diagram for CicadaAI:</div>
  <div class="center">
   <img src="classCicadaAI.png" usemap="#CicadaAI_map" alt=""/>
   <map id="CicadaAI_map" name="CicadaAI_map">
-<area href="classArtificialIntelligence.html" alt="ArtificialIntelligence" shape="rect" coords="0,0,211,24"/>
-<area href="interfaceFriendTracker_1_1IHaveFriendTracker.html" alt="FriendTracker.IHaveFriendTracker" shape="rect" coords="221,0,432,24"/>
-<area href="interfaceIUseARelationshipTracker.html" alt="IUseARelationshipTracker" shape="rect" coords="442,0,653,24"/>
-<area href="interfaceIReactToSocialEvents.html" alt="IReactToSocialEvents" shape="rect" coords="663,0,874,24"/>
+<area href="interfaceIReactToSocialEvents.html" alt="IReactToSocialEvents" shape="rect" coords="221,392,432,416"/>
+<area href="interfaceIUseARelationshipTracker.html" alt="IUseARelationshipTracker" shape="rect" coords="221,336,432,360"/>
+<area href="interfaceFriendTracker_1_1IHaveFriendTracker.html" alt="FriendTracker.IHaveFriendTracker" shape="rect" coords="221,280,432,304"/>
+<area href="classArtificialIntelligence.html" alt="ArtificialIntelligence" shape="rect" coords="221,224,432,248"/>
+<area href="interfaceIReactToSocialEvents.html" alt="IReactToSocialEvents" shape="rect" coords="221,168,432,192"/>
+<area href="interfaceIUseARelationshipTracker.html" alt="IUseARelationshipTracker" shape="rect" coords="221,112,432,136"/>
+<area href="interfaceFriendTracker_1_1IHaveFriendTracker.html" alt="FriendTracker.IHaveFriendTracker" shape="rect" coords="221,56,432,80"/>
+<area href="classArtificialIntelligence.html" alt="ArtificialIntelligence" shape="rect" coords="221,0,432,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -105,13 +109,74 @@ Public Types</h2></td></tr>
 , <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e">ReturnPrey</a>
 , <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e">GetUnstuck</a>
 , <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b">FollowFriend</a>
+, <br />
+&#160;&#160;<a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c">Idle</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44">Flee</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f">Hunt</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db">EscapeRain</a>
+, <br />
+&#160;&#160;<a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619">Antagonize</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e">ReturnPrey</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e">GetUnstuck</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b">FollowFriend</a>
+<br />
+ }</td></tr>
+<tr class="separator:a88dea430d4955cab19c9f61b0ee02b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88dea430d4955cab19c9f61b0ee02b55"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55">Behavior</a> { <br />
+&#160;&#160;<a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c">Idle</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44">Flee</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f">Hunt</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db">EscapeRain</a>
+, <br />
+&#160;&#160;<a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619">Antagonize</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e">ReturnPrey</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e">GetUnstuck</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b">FollowFriend</a>
+, <br />
+&#160;&#160;<a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c">Idle</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44">Flee</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f">Hunt</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db">EscapeRain</a>
+, <br />
+&#160;&#160;<a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619">Antagonize</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e">ReturnPrey</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e">GetUnstuck</a>
+, <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b">FollowFriend</a>
 <br />
  }</td></tr>
 <tr class="separator:a88dea430d4955cab19c9f61b0ee02b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6d276f395fae955218b2be9741a2d9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ad6d276f395fae955218b2be9741a2d9b">CicadaAI</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> <a class="el" href="classArtificialIntelligence.html#ab411cad0f34dfb8af48481b5cb6a7633">creature</a>, <a class="el" href="classWorld.html">World</a> world)</td></tr>
+<tr class="memitem:ad6d276f395fae955218b2be9741a2d9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ad6d276f395fae955218b2be9741a2d9b">CicadaAI</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> <a class="el" href="classArtificialIntelligence.html#a282819ac9976353d1e678f63ea5fdab9">creature</a>, <a class="el" href="classWorld.html">World</a> world)</td></tr>
+<tr class="separator:ad6d276f395fae955218b2be9741a2d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0d5d12f91c1b4f0fbf214ae5a476b16"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ad0d5d12f91c1b4f0fbf214ae5a476b16">NewRoom</a> (<a class="el" href="classRoom.html">Room</a> room)</td></tr>
+<tr class="separator:ad0d5d12f91c1b4f0fbf214ae5a476b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437014921f0a4e22343ff19ed0cc63d1"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a437014921f0a4e22343ff19ed0cc63d1">Update</a> ()</td></tr>
+<tr class="separator:a437014921f0a4e22343ff19ed0cc63d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81cdd1f53fb7c7c9f11ef517d769da3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a81cdd1f53fb7c7c9f11ef517d769da3f">InviteToDance</a> ()</td></tr>
+<tr class="separator:a81cdd1f53fb7c7c9f11ef517d769da3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00c467a87ceb876029ee55f779bd2d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ac00c467a87ceb876029ee55f779bd2d5">AddToCircle</a> (<a class="el" href="classCicadaAI_1_1CircleGroup.html">CircleGroup</a> newGroup)</td></tr>
+<tr class="separator:ac00c467a87ceb876029ee55f779bd2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f75e660684d280580de6cb77a8b14b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a9f75e660684d280580de6cb77a8b14b3">RemoveFromCircle</a> ()</td></tr>
+<tr class="separator:a9f75e660684d280580de6cb77a8b14b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5c12b657b6ab01c191b7def1e4d98cd"><td class="memItemLeft" align="right" valign="top">override float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ae5c12b657b6ab01c191b7def1e4d98cd">VisualScore</a> (Vector2 lookAtPoint, float targetSpeed)</td></tr>
+<tr class="separator:ae5c12b657b6ab01c191b7def1e4d98cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade8a2309b2a9c0c4caae3bdeb7efaca2"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ade8a2309b2a9c0c4caae3bdeb7efaca2">WantToStayInDenUntilEndOfCycle</a> ()</td></tr>
+<tr class="separator:ade8a2309b2a9c0c4caae3bdeb7efaca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab29b18038bb2bad0aeaa1cebd4f24140"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ab29b18038bb2bad0aeaa1cebd4f24140">CreatureSpotted</a> (bool firstSpot, <a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a> creatureRep)</td></tr>
+<tr class="separator:ab29b18038bb2bad0aeaa1cebd4f24140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2b1ae11e6982756f4a9f63203a0255e"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#af2b1ae11e6982756f4a9f63203a0255e">CreateTrackerRepresentationForCreature</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> otherCreature)</td></tr>
+<tr class="separator:af2b1ae11e6982756f4a9f63203a0255e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47be05aafc93fc6ab96d0a21eb8caf08"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a47be05aafc93fc6ab96d0a21eb8caf08">LikeOfPlayer</a> (<a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a> player)</td></tr>
+<tr class="separator:a47be05aafc93fc6ab96d0a21eb8caf08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29a832b031efae787a9be0b0ff8ccfdf"><td class="memItemLeft" align="right" valign="top">override float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a29a832b031efae787a9be0b0ff8ccfdf">CurrentPlayerAggression</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> player)</td></tr>
+<tr class="separator:a29a832b031efae787a9be0b0ff8ccfdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae10ab0f9d9112f2729009dfca2b5677d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ae10ab0f9d9112f2729009dfca2b5677d">SocialEvent</a> (<a class="el" href="classSocialEventRecognizer.html#a75a554d829cec880422fbc076621af11">SocialEventRecognizer.EventID</a> ID, <a class="el" href="classCreature.html">Creature</a> subjectCrit, <a class="el" href="classCreature.html">Creature</a> objectCrit, <a class="el" href="classPhysicalObject.html">PhysicalObject</a> involvedItem)</td></tr>
+<tr class="separator:ae10ab0f9d9112f2729009dfca2b5677d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac523a6f820872807b28a680668810d0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ac523a6f820872807b28a680668810d0c">GiftRecieved</a> (<a class="el" href="classSocialEventRecognizer_1_1OwnedItemOnGround.html">SocialEventRecognizer.OwnedItemOnGround</a> gift)</td></tr>
+<tr class="separator:ac523a6f820872807b28a680668810d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d276f395fae955218b2be9741a2d9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ad6d276f395fae955218b2be9741a2d9b">CicadaAI</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> <a class="el" href="classArtificialIntelligence.html#a282819ac9976353d1e678f63ea5fdab9">creature</a>, <a class="el" href="classWorld.html">World</a> world)</td></tr>
 <tr class="separator:ad6d276f395fae955218b2be9741a2d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0d5d12f91c1b4f0fbf214ae5a476b16"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ad0d5d12f91c1b4f0fbf214ae5a476b16">NewRoom</a> (<a class="el" href="classRoom.html">Room</a> room)</td></tr>
 <tr class="separator:ad0d5d12f91c1b4f0fbf214ae5a476b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,7 +205,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac523a6f820872807b28a680668810d0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ac523a6f820872807b28a680668810d0c">GiftRecieved</a> (<a class="el" href="classSocialEventRecognizer_1_1OwnedItemOnGround.html">SocialEventRecognizer.OwnedItemOnGround</a> gift)</td></tr>
 <tr class="separator:ac523a6f820872807b28a680668810d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classArtificialIntelligence"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArtificialIntelligence')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classArtificialIntelligence.html">ArtificialIntelligence</a></td></tr>
-<tr class="memitem:a23410fe0ff9b06380cfb0f64a525f64c inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a23410fe0ff9b06380cfb0f64a525f64c">ArtificialIntelligence</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> <a class="el" href="classArtificialIntelligence.html#ab411cad0f34dfb8af48481b5cb6a7633">creature</a>, <a class="el" href="classWorld.html">World</a> world)</td></tr>
+<tr class="memitem:a23410fe0ff9b06380cfb0f64a525f64c inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a23410fe0ff9b06380cfb0f64a525f64c">ArtificialIntelligence</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> <a class="el" href="classArtificialIntelligence.html#a282819ac9976353d1e678f63ea5fdab9">creature</a>, <a class="el" href="classWorld.html">World</a> world)</td></tr>
+<tr class="separator:a23410fe0ff9b06380cfb0f64a525f64c inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247c162579c910c978215d6827f73f72 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a247c162579c910c978215d6827f73f72">AddModule</a> (<a class="el" href="classAIModule.html">AIModule</a> module)</td></tr>
+<tr class="separator:a247c162579c910c978215d6827f73f72 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a681466c7b52dfbe7889ef0dcaef01191 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a681466c7b52dfbe7889ef0dcaef01191">VisualContact</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> lookAtCoord, float bonus)</td></tr>
+<tr class="separator:a681466c7b52dfbe7889ef0dcaef01191 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621f15c11c16add99e50a0432d33ab0d inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a621f15c11c16add99e50a0432d33ab0d">VisualContact</a> (Vector2 lookAtPoint, float bonus)</td></tr>
+<tr class="separator:a621f15c11c16add99e50a0432d33ab0d inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56dc45c8f042b77149fc1e5d72ac705 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ab56dc45c8f042b77149fc1e5d72ac705">VisualContact</a> (<a class="el" href="classBodyChunk.html">BodyChunk</a> chunk)</td></tr>
+<tr class="separator:ab56dc45c8f042b77149fc1e5d72ac705 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c98a775a354c7131d32340f0f5297b7 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a3c98a775a354c7131d32340f0f5297b7">SetDestination</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> destination)</td></tr>
+<tr class="separator:a3c98a775a354c7131d32340f0f5297b7 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d91903bc82b581ba59e97a537340715 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a2d91903bc82b581ba59e97a537340715">TravelPreference</a> (<a class="el" href="classMovementConnection.html">MovementConnection</a> coord, <a class="el" href="structPathCost.html">PathCost</a> cost)</td></tr>
+<tr class="separator:a2d91903bc82b581ba59e97a537340715 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1f630a969bb6104398615507b79e72e inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ad1f630a969bb6104398615507b79e72e">NewArea</a> (bool strandedFromExits)</td></tr>
+<tr class="separator:ad1f630a969bb6104398615507b79e72e inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f19126cefb715ce023e2218f598c90d inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a9f19126cefb715ce023e2218f598c90d">DenPosition</a> ()</td></tr>
+<tr class="separator:a9f19126cefb715ce023e2218f598c90d inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d1aa8d3ec986dcf2d106203c8c1ce0 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a80d1aa8d3ec986dcf2d106203c8c1ce0">DynamicRelationship</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> absCrit)</td></tr>
+<tr class="separator:a80d1aa8d3ec986dcf2d106203c8c1ce0 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab635febd7554a7acadefe96a91262870 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ab635febd7554a7acadefe96a91262870">DynamicRelationship</a> (<a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a> rep)</td></tr>
+<tr class="separator:ab635febd7554a7acadefe96a91262870 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c26f53d8cb905444a0cae8f1c25b5fa inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a5c26f53d8cb905444a0cae8f1c25b5fa">DynamicRelationship</a> (<a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a> rep, <a class="el" href="classAbstractCreature.html">AbstractCreature</a> absCrit)</td></tr>
+<tr class="separator:a5c26f53d8cb905444a0cae8f1c25b5fa inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad027a93b3dc4a0547d632bbc6a31cde inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#aad027a93b3dc4a0547d632bbc6a31cde">StaticRelationship</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> otherCreature)</td></tr>
+<tr class="separator:aad027a93b3dc4a0547d632bbc6a31cde inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c99833ddce2350406a6cd2ca57d337 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ad7c99833ddce2350406a6cd2ca57d337">TrackerToDiscardDeadCreature</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> crit)</td></tr>
+<tr class="separator:ad7c99833ddce2350406a6cd2ca57d337 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff508024ef65b6c547254614dde23f0 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a9ff508024ef65b6c547254614dde23f0">HeardNoise</a> (<a class="el" href="classNoise_1_1InGameNoise.html">InGameNoise</a> noise)</td></tr>
+<tr class="separator:a9ff508024ef65b6c547254614dde23f0 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23410fe0ff9b06380cfb0f64a525f64c inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a23410fe0ff9b06380cfb0f64a525f64c">ArtificialIntelligence</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> <a class="el" href="classArtificialIntelligence.html#a282819ac9976353d1e678f63ea5fdab9">creature</a>, <a class="el" href="classWorld.html">World</a> world)</td></tr>
 <tr class="separator:a23410fe0ff9b06380cfb0f64a525f64c inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a247c162579c910c978215d6827f73f72 inherit pub_methods_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a247c162579c910c978215d6827f73f72">AddModule</a> (<a class="el" href="classAIModule.html">AIModule</a> module)</td></tr>
 <tr class="separator:a247c162579c910c978215d6827f73f72 inherit pub_methods_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,53 +268,53 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2b7d891aaed3d34edcb6d3c37ae43abf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCicada.html">Cicada</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a2b7d891aaed3d34edcb6d3c37ae43abf">cicada</a></td></tr>
-<tr class="separator:a2b7d891aaed3d34edcb6d3c37ae43abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d808a7610af737ba2f6d08b088c272"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a67d808a7610af737ba2f6d08b088c272">currentUtility</a></td></tr>
-<tr class="separator:a67d808a7610af737ba2f6d08b088c272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15c985da57ce3faa6270da5749d6d345"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55">Behavior</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a15c985da57ce3faa6270da5749d6d345">behavior</a></td></tr>
-<tr class="separator:a15c985da57ce3faa6270da5749d6d345"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9be7c907d7c1489a609d898f390a78c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a9be7c907d7c1489a609d898f390a78c3">idleSitSpot</a></td></tr>
-<tr class="separator:a9be7c907d7c1489a609d898f390a78c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b28fe7d255111290c716a0c5bceb11d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a4b28fe7d255111290c716a0c5bceb11d">forbiddenIdleSitSpot</a></td></tr>
-<tr class="separator:a4b28fe7d255111290c716a0c5bceb11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a112b0a23408062017c9bd843e8d6d67f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a112b0a23408062017c9bd843e8d6d67f">idleSitCounter</a></td></tr>
-<tr class="separator:a112b0a23408062017c9bd843e8d6d67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a887d22e3b944300a44717a78f92c26b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCicadaAI_1_1CircleGroup.html">CircleGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a887d22e3b944300a44717a78f92c26b5">circleGroup</a></td></tr>
-<tr class="separator:a887d22e3b944300a44717a78f92c26b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acec55c11f5fbadd9dbb0ea0f40dfebac"><td class="memItemLeft" align="right" valign="top">Vector2?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#acec55c11f5fbadd9dbb0ea0f40dfebac">swooshToPos</a></td></tr>
-<tr class="separator:acec55c11f5fbadd9dbb0ea0f40dfebac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7bf54666df4ab75ebd4257202d8bd5f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#af7bf54666df4ab75ebd4257202d8bd5f">noCircleGroupCounter</a></td></tr>
-<tr class="separator:af7bf54666df4ab75ebd4257202d8bd5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5931ba8d02a166463b4dbe4bdc6be77"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ad5931ba8d02a166463b4dbe4bdc6be77">huntAttackCounter</a></td></tr>
-<tr class="separator:ad5931ba8d02a166463b4dbe4bdc6be77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa738c92c2301f61ef91223e09c99f4df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#aa738c92c2301f61ef91223e09c99f4df">tiredOfHuntingCreature</a></td></tr>
-<tr class="separator:aa738c92c2301f61ef91223e09c99f4df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e275272b781a978d9122c454046cf26"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a6e275272b781a978d9122c454046cf26">tiredOfHuntingCounter</a></td></tr>
-<tr class="separator:a6e275272b781a978d9122c454046cf26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab47ba0e931e904d5c0aa009c68fccc8e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ab47ba0e931e904d5c0aa009c68fccc8e">antagonizeMethod</a></td></tr>
-<tr class="separator:ab47ba0e931e904d5c0aa009c68fccc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e573e6662c04a5ab34ceefa7417d194"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a8e573e6662c04a5ab34ceefa7417d194">antagonizeMethodCounter</a></td></tr>
-<tr class="separator:a8e573e6662c04a5ab34ceefa7417d194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78af09cffa401b36506d1d8f22b18496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCreature.html">Creature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a78af09cffa401b36506d1d8f22b18496">panicFleeCrit</a></td></tr>
-<tr class="separator:a78af09cffa401b36506d1d8f22b18496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab591e988ff385228648ecca6d2dcef55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ab591e988ff385228648ecca6d2dcef55">migrateToSwarmRoom</a></td></tr>
-<tr class="separator:ab591e988ff385228648ecca6d2dcef55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affc94f7006e676c7ee351e8fbd70bad0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#affc94f7006e676c7ee351e8fbd70bad0">focusCreature</a></td></tr>
-<tr class="separator:affc94f7006e676c7ee351e8fbd70bad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60949bcb0d1d5534ca2c05805cfd58fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCicada.html">Cicada</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a60949bcb0d1d5534ca2c05805cfd58fd">cicada</a></td></tr>
+<tr class="separator:a60949bcb0d1d5534ca2c05805cfd58fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dbc762ee3ba06880e291b8adf45ce08"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a2dbc762ee3ba06880e291b8adf45ce08">currentUtility</a></td></tr>
+<tr class="separator:a2dbc762ee3ba06880e291b8adf45ce08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bfc390e59e56db2eb76c51c7e081c09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55">Behavior</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a5bfc390e59e56db2eb76c51c7e081c09">behavior</a></td></tr>
+<tr class="separator:a5bfc390e59e56db2eb76c51c7e081c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5467d286f1a76579f4c53f5e2cadb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a6c5467d286f1a76579f4c53f5e2cadb6">idleSitSpot</a></td></tr>
+<tr class="separator:a6c5467d286f1a76579f4c53f5e2cadb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae41b139add1b3ef86a873f1cdd00c7e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ae41b139add1b3ef86a873f1cdd00c7e3">forbiddenIdleSitSpot</a></td></tr>
+<tr class="separator:ae41b139add1b3ef86a873f1cdd00c7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955882ee4edd243fddac71d2eb51244e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a955882ee4edd243fddac71d2eb51244e">idleSitCounter</a></td></tr>
+<tr class="separator:a955882ee4edd243fddac71d2eb51244e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb45f4814aea130ee59180ea41ffb979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCicadaAI_1_1CircleGroup.html">CircleGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#afb45f4814aea130ee59180ea41ffb979">circleGroup</a></td></tr>
+<tr class="separator:afb45f4814aea130ee59180ea41ffb979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a709c12f53ce343431c1480be6d0382b2"><td class="memItemLeft" align="right" valign="top">Vector2?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a709c12f53ce343431c1480be6d0382b2">swooshToPos</a></td></tr>
+<tr class="separator:a709c12f53ce343431c1480be6d0382b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f0ab4c879b6a2255b6f6a6798d3d05a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a4f0ab4c879b6a2255b6f6a6798d3d05a">noCircleGroupCounter</a></td></tr>
+<tr class="separator:a4f0ab4c879b6a2255b6f6a6798d3d05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4da448148b0ba3c763697cac16269990"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a4da448148b0ba3c763697cac16269990">huntAttackCounter</a></td></tr>
+<tr class="separator:a4da448148b0ba3c763697cac16269990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d0a6fed0e59c4f8a95f97f68222620f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a1d0a6fed0e59c4f8a95f97f68222620f">tiredOfHuntingCreature</a></td></tr>
+<tr class="separator:a1d0a6fed0e59c4f8a95f97f68222620f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a628eca136e15e5951f3dd60e02bcfb31"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a628eca136e15e5951f3dd60e02bcfb31">tiredOfHuntingCounter</a></td></tr>
+<tr class="separator:a628eca136e15e5951f3dd60e02bcfb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1915db53042004a7129ff86cf46b9206"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a1915db53042004a7129ff86cf46b9206">antagonizeMethod</a></td></tr>
+<tr class="separator:a1915db53042004a7129ff86cf46b9206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8be557385eb596f219f1a10be1a8486"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#ac8be557385eb596f219f1a10be1a8486">antagonizeMethodCounter</a></td></tr>
+<tr class="separator:ac8be557385eb596f219f1a10be1a8486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd5e7e86cc229e55453910e6f4acbd83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCreature.html">Creature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#abd5e7e86cc229e55453910e6f4acbd83">panicFleeCrit</a></td></tr>
+<tr class="separator:abd5e7e86cc229e55453910e6f4acbd83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d563e734064ecff1267890e56c9076"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#af2d563e734064ecff1267890e56c9076">migrateToSwarmRoom</a></td></tr>
+<tr class="separator:af2d563e734064ecff1267890e56c9076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3022984de110f05d3961c7e0f723fa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#aa3022984de110f05d3961c7e0f723fa5">focusCreature</a></td></tr>
+<tr class="separator:aa3022984de110f05d3961c7e0f723fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classArtificialIntelligence"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classArtificialIntelligence')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classArtificialIntelligence.html">ArtificialIntelligence</a></td></tr>
-<tr class="memitem:ab411cad0f34dfb8af48481b5cb6a7633 inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ab411cad0f34dfb8af48481b5cb6a7633">creature</a></td></tr>
-<tr class="separator:ab411cad0f34dfb8af48481b5cb6a7633 inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e193c9ff87afd39ec9d2fcb831d96df inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classAIModule.html">AIModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a5e193c9ff87afd39ec9d2fcb831d96df">modules</a></td></tr>
-<tr class="separator:a5e193c9ff87afd39ec9d2fcb831d96df inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1cf7b748734dd4c8a6ccef513d65806 inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ab1cf7b748734dd4c8a6ccef513d65806">stranded</a></td></tr>
-<tr class="separator:ab1cf7b748734dd4c8a6ccef513d65806 inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee41ee289143a0cb36003bff94601470 inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#aee41ee289143a0cb36003bff94601470">seeThroughWalls</a></td></tr>
-<tr class="separator:aee41ee289143a0cb36003bff94601470 inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f0f9fdce9c912211ea59a1fe381c35a inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a2f0f9fdce9c912211ea59a1fe381c35a">timeInRoom</a></td></tr>
-<tr class="separator:a2f0f9fdce9c912211ea59a1fe381c35a inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0993245b7a007af8b2bbf2855ac82b3 inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#af0993245b7a007af8b2bbf2855ac82b3">lastRoom</a> = -1</td></tr>
-<tr class="separator:af0993245b7a007af8b2bbf2855ac82b3 inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282819ac9976353d1e678f63ea5fdab9 inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a282819ac9976353d1e678f63ea5fdab9">creature</a></td></tr>
+<tr class="separator:a282819ac9976353d1e678f63ea5fdab9 inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3758bb25555a1bcf04e1bbf145689abb inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classAIModule.html">AIModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a3758bb25555a1bcf04e1bbf145689abb">modules</a></td></tr>
+<tr class="separator:a3758bb25555a1bcf04e1bbf145689abb inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd832657f3a99b48a81e0e326b8f7e01 inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#afd832657f3a99b48a81e0e326b8f7e01">stranded</a></td></tr>
+<tr class="separator:afd832657f3a99b48a81e0e326b8f7e01 inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae637e28200904cd2048a94e0fb5ea0e6 inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ae637e28200904cd2048a94e0fb5ea0e6">seeThroughWalls</a></td></tr>
+<tr class="separator:ae637e28200904cd2048a94e0fb5ea0e6 inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c9115874f3edb7da9c1168778b5a27f inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a0c9115874f3edb7da9c1168778b5a27f">timeInRoom</a></td></tr>
+<tr class="separator:a0c9115874f3edb7da9c1168778b5a27f inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6decbd7260073a42dcad3b000745793e inherit pub_attribs_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a6decbd7260073a42dcad3b000745793e">lastRoom</a> = -1</td></tr>
+<tr class="separator:a6decbd7260073a42dcad3b000745793e inherit pub_attribs_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -233,55 +328,65 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a502cfa9288795a16a1a94ff64a9a93e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa48fcb4429b4a603fa9374bb1096f6c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#aa48fcb4429b4a603fa9374bb1096f6c2">CicadaPlayerRelationChange</a> (float change, <a class="el" href="classAbstractCreature.html">AbstractCreature</a> player)</td></tr>
 <tr class="separator:aa48fcb4429b4a603fa9374bb1096f6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7359a1392abb65e60c1eda3f7cfcf0e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAIModule.html">AIModule</a> IUseARelationshipTracker.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a7359a1392abb65e60c1eda3f7cfcf0e4">ModuleToTrackRelationship</a> (<a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a> relationship)</td></tr>
+<tr class="separator:a7359a1392abb65e60c1eda3f7cfcf0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd39126da2c728594243e854a3c85808"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRelationshipTracker_1_1TrackedCreatureState.html">RelationshipTracker.TrackedCreatureState</a> IUseARelationshipTracker.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#acd39126da2c728594243e854a3c85808">CreateTrackedCreatureState</a> (<a class="el" href="classRelationshipTracker_1_1DynamicRelationship.html">RelationshipTracker.DynamicRelationship</a> rel)</td></tr>
+<tr class="separator:acd39126da2c728594243e854a3c85808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51907b1112055c82b91d9d7b09ac26b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a> IUseARelationshipTracker.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a51907b1112055c82b91d9d7b09ac26b6">UpdateDynamicRelationship</a> (<a class="el" href="classRelationshipTracker_1_1DynamicRelationship.html">RelationshipTracker.DynamicRelationship</a> dRelation)</td></tr>
+<tr class="separator:a51907b1112055c82b91d9d7b09ac26b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a502cfa9288795a16a1a94ff64a9a93e6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a502cfa9288795a16a1a94ff64a9a93e6">ContextualDislikeOfRival</a> (<a class="el" href="classRelationshipTracker_1_1DynamicRelationship.html">RelationshipTracker.DynamicRelationship</a> dRelation, <a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a> rel)</td></tr>
+<tr class="separator:a502cfa9288795a16a1a94ff64a9a93e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa48fcb4429b4a603fa9374bb1096f6c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#aa48fcb4429b4a603fa9374bb1096f6c2">CicadaPlayerRelationChange</a> (float change, <a class="el" href="classAbstractCreature.html">AbstractCreature</a> player)</td></tr>
+<tr class="separator:aa48fcb4429b4a603fa9374bb1096f6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a5b11efbaaa762a3c9a59ae94b8f669c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDebugDestinationVisualizer.html">DebugDestinationVisualizer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#a5b11efbaaa762a3c9a59ae94b8f669c2">debugDestinationVisualizer</a></td></tr>
-<tr class="separator:a5b11efbaaa762a3c9a59ae94b8f669c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa3716dfbb54b808e633239c79505f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDebugDestinationVisualizer.html">DebugDestinationVisualizer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCicadaAI.html#aaaa3716dfbb54b808e633239c79505f0">debugDestinationVisualizer</a></td></tr>
+<tr class="separator:aaaa3716dfbb54b808e633239c79505f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header properties_classArtificialIntelligence"><td colspan="2" onclick="javascript:toggleInherit('properties_classArtificialIntelligence')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classArtificialIntelligence.html">ArtificialIntelligence</a></td></tr>
-<tr class="memitem:ab41be35c882c99b9280a1c0be221d585 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPathFinder.html">PathFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ab41be35c882c99b9280a1c0be221d585">pathFinder</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:ab41be35c882c99b9280a1c0be221d585 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c2c5290da0f62d2cf2f46a579fb822e inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTracker.html">Tracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a1c2c5290da0f62d2cf2f46a579fb822e">tracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a1c2c5290da0f62d2cf2f46a579fb822e inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c648a0688d57ba3f242a7d7240adeed inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNoiseTracker.html">NoiseTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a3c648a0688d57ba3f242a7d7240adeed">noiseTracker</a><code> [get]</code></td></tr>
-<tr class="separator:a3c648a0688d57ba3f242a7d7240adeed inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e5add3319fd2980f290b81b76f5173 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObstacleTracker.html">ObstacleTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a42e5add3319fd2980f290b81b76f5173">obstacleTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a42e5add3319fd2980f290b81b76f5173 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98861edcac6e530f677da4c514b5ba51 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThreatTracker.html">ThreatTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a98861edcac6e530f677da4c514b5ba51">threatTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a98861edcac6e530f677da4c514b5ba51 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a735b569816a6bfdada41ccca7f0efa60 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPreyTracker.html">PreyTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a735b569816a6bfdada41ccca7f0efa60">preyTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a735b569816a6bfdada41ccca7f0efa60 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affabf84388a443cc1e5474674d8cbbdb inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRainTracker.html">RainTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#affabf84388a443cc1e5474674d8cbbdb">rainTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:affabf84388a443cc1e5474674d8cbbdb inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f2d8b6fbf15fb9fcd1a79517f868a4 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDenFinder.html">DenFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ad1f2d8b6fbf15fb9fcd1a79517f868a4">denFinder</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:ad1f2d8b6fbf15fb9fcd1a79517f868a4 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a980001baceaa71f253935c2a83e9b47f inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAgressionTracker.html">AgressionTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a980001baceaa71f253935c2a83e9b47f">agressionTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a980001baceaa71f253935c2a83e9b47f inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1313c01925302b88ab4af79902aef15 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUtilityComparer.html">UtilityComparer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#af1313c01925302b88ab4af79902aef15">utilityComparer</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:af1313c01925302b88ab4af79902aef15 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa501854f5ff233e497409c3b0fbd6d1f inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMissionTracker.html">MissionTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#aa501854f5ff233e497409c3b0fbd6d1f">missionTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:aa501854f5ff233e497409c3b0fbd6d1f inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9d3fcd39295641e78d2d216d025827d inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNodeFinder.html">NodeFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#aa9d3fcd39295641e78d2d216d025827d">secondaryNodeFinder</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:aa9d3fcd39295641e78d2d216d025827d inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a46890a9ab16aa87203acacc5414493 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRelationshipTracker.html">RelationshipTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a8a46890a9ab16aa87203acacc5414493">relationshipTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a8a46890a9ab16aa87203acacc5414493 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5a556eb00e48c91f00f92f3addc400b inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classItemTracker.html">ItemTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#aa5a556eb00e48c91f00f92f3addc400b">itemTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:aa5a556eb00e48c91f00f92f3addc400b inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ae1176f2a6be30f8cd2ee2b37d1456b inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDiscomfortTracker.html">DiscomfortTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a4ae1176f2a6be30f8cd2ee2b37d1456b">discomfortTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a4ae1176f2a6be30f8cd2ee2b37d1456b inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dd9395063de22fab9686699d6d398f9 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStuckTracker.html">StuckTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a0dd9395063de22fab9686699d6d398f9">stuckTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a0dd9395063de22fab9686699d6d398f9 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d8c2248d20385b8b35791ab4ea1dee2 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInjuryTracker.html">InjuryTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a8d8c2248d20385b8b35791ab4ea1dee2">injuryTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a8d8c2248d20385b8b35791ab4ea1dee2 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2196f1e817fc909ceac92ce9a00718e3 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFriendTracker.html">FriendTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a2196f1e817fc909ceac92ce9a00718e3">friendTracker</a><code> [getprivate set]</code></td></tr>
-<tr class="separator:a2196f1e817fc909ceac92ce9a00718e3 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c18f645a349e9fa5c78cfe1442abad inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPathFinder.html">PathFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#aa2c18f645a349e9fa5c78cfe1442abad">pathFinder</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:aa2c18f645a349e9fa5c78cfe1442abad inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73bc2b6bba49528d9ac034e81de8b5b0 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTracker.html">Tracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a73bc2b6bba49528d9ac034e81de8b5b0">tracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a73bc2b6bba49528d9ac034e81de8b5b0 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ca7c1b3967d2a8afcfd1e819557bef inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNoiseTracker.html">NoiseTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a26ca7c1b3967d2a8afcfd1e819557bef">noiseTracker</a><code> [get]</code></td></tr>
+<tr class="separator:a26ca7c1b3967d2a8afcfd1e819557bef inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0675e4d00126cd2d0f0eb04fb36bea0c inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classObstacleTracker.html">ObstacleTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a0675e4d00126cd2d0f0eb04fb36bea0c">obstacleTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a0675e4d00126cd2d0f0eb04fb36bea0c inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be91ee1c39e5ad0a333ca7be0799176 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThreatTracker.html">ThreatTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a1be91ee1c39e5ad0a333ca7be0799176">threatTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a1be91ee1c39e5ad0a333ca7be0799176 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e043fe3b2ab65f70db58119e2f610c4 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPreyTracker.html">PreyTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a3e043fe3b2ab65f70db58119e2f610c4">preyTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a3e043fe3b2ab65f70db58119e2f610c4 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89260bea2fb76ca4758c54c48df1e43 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRainTracker.html">RainTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#aa89260bea2fb76ca4758c54c48df1e43">rainTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:aa89260bea2fb76ca4758c54c48df1e43 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b1342e597dd907e2a71b9e38a7216aa inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDenFinder.html">DenFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a6b1342e597dd907e2a71b9e38a7216aa">denFinder</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a6b1342e597dd907e2a71b9e38a7216aa inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab166a9a17ef3a5f0aaaa9e0210270a6f inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAgressionTracker.html">AgressionTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ab166a9a17ef3a5f0aaaa9e0210270a6f">agressionTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:ab166a9a17ef3a5f0aaaa9e0210270a6f inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84dc1e6906d8aced339a400c7ea2e2ff inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUtilityComparer.html">UtilityComparer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a84dc1e6906d8aced339a400c7ea2e2ff">utilityComparer</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a84dc1e6906d8aced339a400c7ea2e2ff inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac18eb1e9267f990cedb16b1d68dea113 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMissionTracker.html">MissionTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#ac18eb1e9267f990cedb16b1d68dea113">missionTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:ac18eb1e9267f990cedb16b1d68dea113 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb7f619f4262b3ff4aa645d7a5be553 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNodeFinder.html">NodeFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a4cb7f619f4262b3ff4aa645d7a5be553">secondaryNodeFinder</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a4cb7f619f4262b3ff4aa645d7a5be553 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ae3d6130601d4a2c918abadfe6c609 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRelationshipTracker.html">RelationshipTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a10ae3d6130601d4a2c918abadfe6c609">relationshipTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a10ae3d6130601d4a2c918abadfe6c609 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b9f47e7dffa3852635f14ae14cc3d71 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classItemTracker.html">ItemTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a9b9f47e7dffa3852635f14ae14cc3d71">itemTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a9b9f47e7dffa3852635f14ae14cc3d71 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addd316198db3252a7bbadf5afb4e5851 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDiscomfortTracker.html">DiscomfortTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#addd316198db3252a7bbadf5afb4e5851">discomfortTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:addd316198db3252a7bbadf5afb4e5851 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8db8dbf35f932279193a2406f5a57020 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStuckTracker.html">StuckTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a8db8dbf35f932279193a2406f5a57020">stuckTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a8db8dbf35f932279193a2406f5a57020 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40319f56a7510d16ad61dededb9d6af8 inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInjuryTracker.html">InjuryTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#a40319f56a7510d16ad61dededb9d6af8">injuryTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:a40319f56a7510d16ad61dededb9d6af8 inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66f6d755fd421c970955f17912e8f8e inherit properties_classArtificialIntelligence"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFriendTracker.html">FriendTracker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArtificialIntelligence.html#aa66f6d755fd421c970955f17912e8f8e">friendTracker</a><code> [getprivate set]</code></td></tr>
+<tr class="separator:aa66f6d755fd421c970955f17912e8f8e inherit properties_classArtificialIntelligence"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a88dea430d4955cab19c9f61b0ee02b55" name="a88dea430d4955cab19c9f61b0ee02b55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88dea430d4955cab19c9f61b0ee02b55">&#9670;&nbsp;</a></span>Behavior</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a88dea430d4955cab19c9f61b0ee02b55">&#9670;&nbsp;</a></span>Behavior <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,13 +405,89 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e" name="a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e"></a>ReturnPrey&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e" name="a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e"></a>GetUnstuck&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b" name="a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b"></a>FollowFriend&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c" name="a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44" name="a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44"></a>Flee&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f" name="a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f"></a>Hunt&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db" name="a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db"></a>EscapeRain&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619" name="a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619"></a>Antagonize&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e" name="a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e"></a>ReturnPrey&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e" name="a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e"></a>GetUnstuck&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b" name="a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b"></a>FollowFriend&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a88dea430d4955cab19c9f61b0ee02b55" name="a88dea430d4955cab19c9f61b0ee02b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88dea430d4955cab19c9f61b0ee02b55">&#9670;&nbsp;</a></span>Behavior <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classCicadaAI.html#a88dea430d4955cab19c9f61b0ee02b55">CicadaAI.Behavior</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c" name="a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44" name="a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44"></a>Flee&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f" name="a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f"></a>Hunt&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db" name="a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db"></a>EscapeRain&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619" name="a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619"></a>Antagonize&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e" name="a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e"></a>ReturnPrey&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e" name="a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e"></a>GetUnstuck&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b" name="a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b"></a>FollowFriend&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c" name="a88dea430d4955cab19c9f61b0ee02b55ae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44" name="a88dea430d4955cab19c9f61b0ee02b55a20a8b1e6e473f9f1b219973fb365af44"></a>Flee&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f" name="a88dea430d4955cab19c9f61b0ee02b55a85dd070c26938d7a4184269c6ddacd1f"></a>Hunt&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db" name="a88dea430d4955cab19c9f61b0ee02b55ab8d95843f2d3a505010185cfac78c7db"></a>EscapeRain&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619" name="a88dea430d4955cab19c9f61b0ee02b55a7b5f25087abda1f6321a972497af7619"></a>Antagonize&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e" name="a88dea430d4955cab19c9f61b0ee02b55a6523e0fc0d167eb2e0dde42ef06ef22e"></a>ReturnPrey&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e" name="a88dea430d4955cab19c9f61b0ee02b55aec97a98e6761b335ed11daedb1b85f8e"></a>GetUnstuck&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b" name="a88dea430d4955cab19c9f61b0ee02b55a0363b76017e07bf215eb168f1fe5699b"></a>FollowFriend&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad6d276f395fae955218b2be9741a2d9b" name="ad6d276f395fae955218b2be9741a2d9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6d276f395fae955218b2be9741a2d9b">&#9670;&nbsp;</a></span>CicadaAI()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6d276f395fae955218b2be9741a2d9b">&#9670;&nbsp;</a></span>CicadaAI() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CicadaAI.CicadaAI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td>
+          <td class="paramname"><em>creature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classWorld.html">World</a>&#160;</td>
+          <td class="paramname"><em>world</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6d276f395fae955218b2be9741a2d9b" name="ad6d276f395fae955218b2be9741a2d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6d276f395fae955218b2be9741a2d9b">&#9670;&nbsp;</a></span>CicadaAI() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,7 +524,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac00c467a87ceb876029ee55f779bd2d5" name="ac00c467a87ceb876029ee55f779bd2d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac00c467a87ceb876029ee55f779bd2d5">&#9670;&nbsp;</a></span>AddToCircle()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac00c467a87ceb876029ee55f779bd2d5">&#9670;&nbsp;</a></span>AddToCircle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CicadaAI.AddToCircle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCicadaAI_1_1CircleGroup.html">CircleGroup</a>&#160;</td>
+          <td class="paramname"><em>newGroup</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac00c467a87ceb876029ee55f779bd2d5" name="ac00c467a87ceb876029ee55f779bd2d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac00c467a87ceb876029ee55f779bd2d5">&#9670;&nbsp;</a></span>AddToCircle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,7 +576,43 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="aa48fcb4429b4a603fa9374bb1096f6c2" name="aa48fcb4429b4a603fa9374bb1096f6c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa48fcb4429b4a603fa9374bb1096f6c2">&#9670;&nbsp;</a></span>CicadaPlayerRelationChange()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa48fcb4429b4a603fa9374bb1096f6c2">&#9670;&nbsp;</a></span>CicadaPlayerRelationChange() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CicadaAI.CicadaPlayerRelationChange </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>change</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td>
+          <td class="paramname"><em>player</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa48fcb4429b4a603fa9374bb1096f6c2" name="aa48fcb4429b4a603fa9374bb1096f6c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa48fcb4429b4a603fa9374bb1096f6c2">&#9670;&nbsp;</a></span>CicadaPlayerRelationChange() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -405,7 +648,43 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a502cfa9288795a16a1a94ff64a9a93e6" name="a502cfa9288795a16a1a94ff64a9a93e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a502cfa9288795a16a1a94ff64a9a93e6">&#9670;&nbsp;</a></span>ContextualDislikeOfRival()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a502cfa9288795a16a1a94ff64a9a93e6">&#9670;&nbsp;</a></span>ContextualDislikeOfRival() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CicadaAI.ContextualDislikeOfRival </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRelationshipTracker_1_1DynamicRelationship.html">RelationshipTracker.DynamicRelationship</a>&#160;</td>
+          <td class="paramname"><em>dRelation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a>&#160;</td>
+          <td class="paramname"><em>rel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a502cfa9288795a16a1a94ff64a9a93e6" name="a502cfa9288795a16a1a94ff64a9a93e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a502cfa9288795a16a1a94ff64a9a93e6">&#9670;&nbsp;</a></span>ContextualDislikeOfRival() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -441,7 +720,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="acd39126da2c728594243e854a3c85808" name="acd39126da2c728594243e854a3c85808"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd39126da2c728594243e854a3c85808">&#9670;&nbsp;</a></span>CreateTrackedCreatureState()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd39126da2c728594243e854a3c85808">&#9670;&nbsp;</a></span>CreateTrackedCreatureState() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRelationshipTracker_1_1TrackedCreatureState.html">RelationshipTracker.TrackedCreatureState</a> IUseARelationshipTracker. CicadaAI.CreateTrackedCreatureState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRelationshipTracker_1_1DynamicRelationship.html">RelationshipTracker.DynamicRelationship</a>&#160;</td>
+          <td class="paramname"><em>rel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfaceIUseARelationshipTracker.html#abac91a9f5f25d8f003456f2f0eec005c">IUseARelationshipTracker</a>.</p>
+
+</div>
+</div>
+<a id="acd39126da2c728594243e854a3c85808" name="acd39126da2c728594243e854a3c85808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd39126da2c728594243e854a3c85808">&#9670;&nbsp;</a></span>CreateTrackedCreatureState() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +776,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="af2b1ae11e6982756f4a9f63203a0255e" name="af2b1ae11e6982756f4a9f63203a0255e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2b1ae11e6982756f4a9f63203a0255e">&#9670;&nbsp;</a></span>CreateTrackerRepresentationForCreature()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af2b1ae11e6982756f4a9f63203a0255e">&#9670;&nbsp;</a></span>CreateTrackerRepresentationForCreature() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a> CicadaAI.CreateTrackerRepresentationForCreature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td>
+          <td class="paramname"><em>otherCreature</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classArtificialIntelligence.html#ab0938da29788196fad7c8972450749ba">ArtificialIntelligence</a>.</p>
+
+</div>
+</div>
+<a id="af2b1ae11e6982756f4a9f63203a0255e" name="af2b1ae11e6982756f4a9f63203a0255e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2b1ae11e6982756f4a9f63203a0255e">&#9670;&nbsp;</a></span>CreateTrackerRepresentationForCreature() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +832,45 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ab29b18038bb2bad0aeaa1cebd4f24140" name="ab29b18038bb2bad0aeaa1cebd4f24140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab29b18038bb2bad0aeaa1cebd4f24140">&#9670;&nbsp;</a></span>CreatureSpotted()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab29b18038bb2bad0aeaa1cebd4f24140">&#9670;&nbsp;</a></span>CreatureSpotted() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void CicadaAI.CreatureSpotted </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>firstSpot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a>&#160;</td>
+          <td class="paramname"><em>creatureRep</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classArtificialIntelligence.html#acc743c71ec1ea65cb48acbeaa7da4129">ArtificialIntelligence</a>.</p>
+
+</div>
+</div>
+<a id="ab29b18038bb2bad0aeaa1cebd4f24140" name="ab29b18038bb2bad0aeaa1cebd4f24140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab29b18038bb2bad0aeaa1cebd4f24140">&#9670;&nbsp;</a></span>CreatureSpotted() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -535,7 +908,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a29a832b031efae787a9be0b0ff8ccfdf" name="a29a832b031efae787a9be0b0ff8ccfdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29a832b031efae787a9be0b0ff8ccfdf">&#9670;&nbsp;</a></span>CurrentPlayerAggression()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a832b031efae787a9be0b0ff8ccfdf">&#9670;&nbsp;</a></span>CurrentPlayerAggression() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override float CicadaAI.CurrentPlayerAggression </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classArtificialIntelligence.html#a1967f75d0b44d7279b8c6b3a98ad250f">ArtificialIntelligence</a>.</p>
+
+</div>
+</div>
+<a id="a29a832b031efae787a9be0b0ff8ccfdf" name="a29a832b031efae787a9be0b0ff8ccfdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a832b031efae787a9be0b0ff8ccfdf">&#9670;&nbsp;</a></span>CurrentPlayerAggression() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -563,7 +964,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ac523a6f820872807b28a680668810d0c" name="ac523a6f820872807b28a680668810d0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac523a6f820872807b28a680668810d0c">&#9670;&nbsp;</a></span>GiftRecieved()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac523a6f820872807b28a680668810d0c">&#9670;&nbsp;</a></span>GiftRecieved() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CicadaAI.GiftRecieved </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSocialEventRecognizer_1_1OwnedItemOnGround.html">SocialEventRecognizer.OwnedItemOnGround</a>&#160;</td>
+          <td class="paramname"><em>gift</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfaceFriendTracker_1_1IHaveFriendTracker.html#ad057bbab1c07e6bdcccf13a7960009ec">FriendTracker.IHaveFriendTracker</a>.</p>
+
+</div>
+</div>
+<a id="ac523a6f820872807b28a680668810d0c" name="ac523a6f820872807b28a680668810d0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac523a6f820872807b28a680668810d0c">&#9670;&nbsp;</a></span>GiftRecieved() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -591,7 +1020,32 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a81cdd1f53fb7c7c9f11ef517d769da3f" name="a81cdd1f53fb7c7c9f11ef517d769da3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81cdd1f53fb7c7c9f11ef517d769da3f">&#9670;&nbsp;</a></span>InviteToDance()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a81cdd1f53fb7c7c9f11ef517d769da3f">&#9670;&nbsp;</a></span>InviteToDance() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CicadaAI.InviteToDance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81cdd1f53fb7c7c9f11ef517d769da3f" name="a81cdd1f53fb7c7c9f11ef517d769da3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81cdd1f53fb7c7c9f11ef517d769da3f">&#9670;&nbsp;</a></span>InviteToDance() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -616,7 +1070,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a47be05aafc93fc6ab96d0a21eb8caf08" name="a47be05aafc93fc6ab96d0a21eb8caf08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47be05aafc93fc6ab96d0a21eb8caf08">&#9670;&nbsp;</a></span>LikeOfPlayer()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a47be05aafc93fc6ab96d0a21eb8caf08">&#9670;&nbsp;</a></span>LikeOfPlayer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CicadaAI.LikeOfPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a>&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47be05aafc93fc6ab96d0a21eb8caf08" name="a47be05aafc93fc6ab96d0a21eb8caf08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47be05aafc93fc6ab96d0a21eb8caf08">&#9670;&nbsp;</a></span>LikeOfPlayer() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -642,7 +1122,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a7359a1392abb65e60c1eda3f7cfcf0e4" name="a7359a1392abb65e60c1eda3f7cfcf0e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7359a1392abb65e60c1eda3f7cfcf0e4">&#9670;&nbsp;</a></span>ModuleToTrackRelationship()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7359a1392abb65e60c1eda3f7cfcf0e4">&#9670;&nbsp;</a></span>ModuleToTrackRelationship() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAIModule.html">AIModule</a> IUseARelationshipTracker. CicadaAI.ModuleToTrackRelationship </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a>&#160;</td>
+          <td class="paramname"><em>relationship</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfaceIUseARelationshipTracker.html#a077aa38069e94b27a7a89d62a34869a6">IUseARelationshipTracker</a>.</p>
+
+</div>
+</div>
+<a id="a7359a1392abb65e60c1eda3f7cfcf0e4" name="a7359a1392abb65e60c1eda3f7cfcf0e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7359a1392abb65e60c1eda3f7cfcf0e4">&#9670;&nbsp;</a></span>ModuleToTrackRelationship() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -670,7 +1178,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ad0d5d12f91c1b4f0fbf214ae5a476b16" name="ad0d5d12f91c1b4f0fbf214ae5a476b16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0d5d12f91c1b4f0fbf214ae5a476b16">&#9670;&nbsp;</a></span>NewRoom()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0d5d12f91c1b4f0fbf214ae5a476b16">&#9670;&nbsp;</a></span>NewRoom() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void CicadaAI.NewRoom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRoom.html">Room</a>&#160;</td>
+          <td class="paramname"><em>room</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classArtificialIntelligence.html#a8d94375a262e226895294c247af772df">ArtificialIntelligence</a>.</p>
+
+</div>
+</div>
+<a id="ad0d5d12f91c1b4f0fbf214ae5a476b16" name="ad0d5d12f91c1b4f0fbf214ae5a476b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0d5d12f91c1b4f0fbf214ae5a476b16">&#9670;&nbsp;</a></span>NewRoom() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -698,7 +1234,32 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a9f75e660684d280580de6cb77a8b14b3" name="a9f75e660684d280580de6cb77a8b14b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f75e660684d280580de6cb77a8b14b3">&#9670;&nbsp;</a></span>RemoveFromCircle()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f75e660684d280580de6cb77a8b14b3">&#9670;&nbsp;</a></span>RemoveFromCircle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CicadaAI.RemoveFromCircle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f75e660684d280580de6cb77a8b14b3" name="a9f75e660684d280580de6cb77a8b14b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f75e660684d280580de6cb77a8b14b3">&#9670;&nbsp;</a></span>RemoveFromCircle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -723,7 +1284,57 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ae10ab0f9d9112f2729009dfca2b5677d" name="ae10ab0f9d9112f2729009dfca2b5677d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae10ab0f9d9112f2729009dfca2b5677d">&#9670;&nbsp;</a></span>SocialEvent()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae10ab0f9d9112f2729009dfca2b5677d">&#9670;&nbsp;</a></span>SocialEvent() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CicadaAI.SocialEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSocialEventRecognizer.html#a75a554d829cec880422fbc076621af11">SocialEventRecognizer.EventID</a>&#160;</td>
+          <td class="paramname"><em>ID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCreature.html">Creature</a>&#160;</td>
+          <td class="paramname"><em>subjectCrit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCreature.html">Creature</a>&#160;</td>
+          <td class="paramname"><em>objectCrit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPhysicalObject.html">PhysicalObject</a>&#160;</td>
+          <td class="paramname"><em>involvedItem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfaceIReactToSocialEvents.html#a7de08fa5c2f6c3a1cf85dc9c1ba16712">IReactToSocialEvents</a>.</p>
+
+</div>
+</div>
+<a id="ae10ab0f9d9112f2729009dfca2b5677d" name="ae10ab0f9d9112f2729009dfca2b5677d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae10ab0f9d9112f2729009dfca2b5677d">&#9670;&nbsp;</a></span>SocialEvent() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -773,7 +1384,34 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a437014921f0a4e22343ff19ed0cc63d1" name="a437014921f0a4e22343ff19ed0cc63d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a437014921f0a4e22343ff19ed0cc63d1">&#9670;&nbsp;</a></span>Update()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a437014921f0a4e22343ff19ed0cc63d1">&#9670;&nbsp;</a></span>Update() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void CicadaAI.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classArtificialIntelligence.html#a64f4abc2223f77ac682a5075675e766c">ArtificialIntelligence</a>.</p>
+
+</div>
+</div>
+<a id="a437014921f0a4e22343ff19ed0cc63d1" name="a437014921f0a4e22343ff19ed0cc63d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437014921f0a4e22343ff19ed0cc63d1">&#9670;&nbsp;</a></span>Update() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -800,7 +1438,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a51907b1112055c82b91d9d7b09ac26b6" name="a51907b1112055c82b91d9d7b09ac26b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51907b1112055c82b91d9d7b09ac26b6">&#9670;&nbsp;</a></span>UpdateDynamicRelationship()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a51907b1112055c82b91d9d7b09ac26b6">&#9670;&nbsp;</a></span>UpdateDynamicRelationship() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCreatureTemplate_1_1Relationship.html">CreatureTemplate.Relationship</a> IUseARelationshipTracker. CicadaAI.UpdateDynamicRelationship </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRelationshipTracker_1_1DynamicRelationship.html">RelationshipTracker.DynamicRelationship</a>&#160;</td>
+          <td class="paramname"><em>dRelation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfaceIUseARelationshipTracker.html#a95e2d84672d39eae9ef7012f91ecdb65">IUseARelationshipTracker</a>.</p>
+
+</div>
+</div>
+<a id="a51907b1112055c82b91d9d7b09ac26b6" name="a51907b1112055c82b91d9d7b09ac26b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51907b1112055c82b91d9d7b09ac26b6">&#9670;&nbsp;</a></span>UpdateDynamicRelationship() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -828,7 +1494,45 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ae5c12b657b6ab01c191b7def1e4d98cd" name="ae5c12b657b6ab01c191b7def1e4d98cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5c12b657b6ab01c191b7def1e4d98cd">&#9670;&nbsp;</a></span>VisualScore()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5c12b657b6ab01c191b7def1e4d98cd">&#9670;&nbsp;</a></span>VisualScore() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override float CicadaAI.VisualScore </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>lookAtPoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>targetSpeed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classArtificialIntelligence.html#a3db2a4a26890b83ef3a90ff7a29cf08e">ArtificialIntelligence</a>.</p>
+
+</div>
+</div>
+<a id="ae5c12b657b6ab01c191b7def1e4d98cd" name="ae5c12b657b6ab01c191b7def1e4d98cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5c12b657b6ab01c191b7def1e4d98cd">&#9670;&nbsp;</a></span>VisualScore() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -866,7 +1570,34 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ade8a2309b2a9c0c4caae3bdeb7efaca2" name="ade8a2309b2a9c0c4caae3bdeb7efaca2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade8a2309b2a9c0c4caae3bdeb7efaca2">&#9670;&nbsp;</a></span>WantToStayInDenUntilEndOfCycle()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ade8a2309b2a9c0c4caae3bdeb7efaca2">&#9670;&nbsp;</a></span>WantToStayInDenUntilEndOfCycle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool CicadaAI.WantToStayInDenUntilEndOfCycle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classArtificialIntelligence.html#ae70c9e06839845769b7493d549836f02">ArtificialIntelligence</a>.</p>
+
+</div>
+</div>
+<a id="ade8a2309b2a9c0c4caae3bdeb7efaca2" name="ade8a2309b2a9c0c4caae3bdeb7efaca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade8a2309b2a9c0c4caae3bdeb7efaca2">&#9670;&nbsp;</a></span>WantToStayInDenUntilEndOfCycle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -893,8 +1624,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab47ba0e931e904d5c0aa009c68fccc8e" name="ab47ba0e931e904d5c0aa009c68fccc8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab47ba0e931e904d5c0aa009c68fccc8e">&#9670;&nbsp;</a></span>antagonizeMethod</h2>
+<a id="a1915db53042004a7129ff86cf46b9206" name="a1915db53042004a7129ff86cf46b9206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1915db53042004a7129ff86cf46b9206">&#9670;&nbsp;</a></span>antagonizeMethod</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -907,8 +1638,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8e573e6662c04a5ab34ceefa7417d194" name="a8e573e6662c04a5ab34ceefa7417d194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e573e6662c04a5ab34ceefa7417d194">&#9670;&nbsp;</a></span>antagonizeMethodCounter</h2>
+<a id="ac8be557385eb596f219f1a10be1a8486" name="ac8be557385eb596f219f1a10be1a8486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8be557385eb596f219f1a10be1a8486">&#9670;&nbsp;</a></span>antagonizeMethodCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -921,8 +1652,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a15c985da57ce3faa6270da5749d6d345" name="a15c985da57ce3faa6270da5749d6d345"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15c985da57ce3faa6270da5749d6d345">&#9670;&nbsp;</a></span>behavior</h2>
+<a id="a5bfc390e59e56db2eb76c51c7e081c09" name="a5bfc390e59e56db2eb76c51c7e081c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bfc390e59e56db2eb76c51c7e081c09">&#9670;&nbsp;</a></span>behavior</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -935,8 +1666,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2b7d891aaed3d34edcb6d3c37ae43abf" name="a2b7d891aaed3d34edcb6d3c37ae43abf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b7d891aaed3d34edcb6d3c37ae43abf">&#9670;&nbsp;</a></span>cicada</h2>
+<a id="a60949bcb0d1d5534ca2c05805cfd58fd" name="a60949bcb0d1d5534ca2c05805cfd58fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60949bcb0d1d5534ca2c05805cfd58fd">&#9670;&nbsp;</a></span>cicada</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -949,8 +1680,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a887d22e3b944300a44717a78f92c26b5" name="a887d22e3b944300a44717a78f92c26b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a887d22e3b944300a44717a78f92c26b5">&#9670;&nbsp;</a></span>circleGroup</h2>
+<a id="afb45f4814aea130ee59180ea41ffb979" name="afb45f4814aea130ee59180ea41ffb979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb45f4814aea130ee59180ea41ffb979">&#9670;&nbsp;</a></span>circleGroup</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -963,8 +1694,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a67d808a7610af737ba2f6d08b088c272" name="a67d808a7610af737ba2f6d08b088c272"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67d808a7610af737ba2f6d08b088c272">&#9670;&nbsp;</a></span>currentUtility</h2>
+<a id="a2dbc762ee3ba06880e291b8adf45ce08" name="a2dbc762ee3ba06880e291b8adf45ce08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dbc762ee3ba06880e291b8adf45ce08">&#9670;&nbsp;</a></span>currentUtility</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -977,8 +1708,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5b11efbaaa762a3c9a59ae94b8f669c2" name="a5b11efbaaa762a3c9a59ae94b8f669c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b11efbaaa762a3c9a59ae94b8f669c2">&#9670;&nbsp;</a></span>debugDestinationVisualizer</h2>
+<a id="aaaa3716dfbb54b808e633239c79505f0" name="aaaa3716dfbb54b808e633239c79505f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa3716dfbb54b808e633239c79505f0">&#9670;&nbsp;</a></span>debugDestinationVisualizer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -999,22 +1730,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="affc94f7006e676c7ee351e8fbd70bad0" name="affc94f7006e676c7ee351e8fbd70bad0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affc94f7006e676c7ee351e8fbd70bad0">&#9670;&nbsp;</a></span>focusCreature</h2>
+<a id="aa3022984de110f05d3961c7e0f723fa5" name="aa3022984de110f05d3961c7e0f723fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3022984de110f05d3961c7e0f723fa5">&#9670;&nbsp;</a></span>focusCreature</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classTracker_1_1CreatureRepresentation.html">Tracker.CreatureRepresentation</a> CicadaAI.focusCreature</td>
+          <td class="memname"><a class="el" href="classTracker.html">Tracker</a> CreatureRepresentation CicadaAI.focusCreature</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4b28fe7d255111290c716a0c5bceb11d" name="a4b28fe7d255111290c716a0c5bceb11d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b28fe7d255111290c716a0c5bceb11d">&#9670;&nbsp;</a></span>forbiddenIdleSitSpot</h2>
+<a id="ae41b139add1b3ef86a873f1cdd00c7e3" name="ae41b139add1b3ef86a873f1cdd00c7e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae41b139add1b3ef86a873f1cdd00c7e3">&#9670;&nbsp;</a></span>forbiddenIdleSitSpot</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1027,8 +1758,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad5931ba8d02a166463b4dbe4bdc6be77" name="ad5931ba8d02a166463b4dbe4bdc6be77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5931ba8d02a166463b4dbe4bdc6be77">&#9670;&nbsp;</a></span>huntAttackCounter</h2>
+<a id="a4da448148b0ba3c763697cac16269990" name="a4da448148b0ba3c763697cac16269990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4da448148b0ba3c763697cac16269990">&#9670;&nbsp;</a></span>huntAttackCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1041,8 +1772,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a112b0a23408062017c9bd843e8d6d67f" name="a112b0a23408062017c9bd843e8d6d67f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a112b0a23408062017c9bd843e8d6d67f">&#9670;&nbsp;</a></span>idleSitCounter</h2>
+<a id="a955882ee4edd243fddac71d2eb51244e" name="a955882ee4edd243fddac71d2eb51244e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955882ee4edd243fddac71d2eb51244e">&#9670;&nbsp;</a></span>idleSitCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1055,8 +1786,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a9be7c907d7c1489a609d898f390a78c3" name="a9be7c907d7c1489a609d898f390a78c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9be7c907d7c1489a609d898f390a78c3">&#9670;&nbsp;</a></span>idleSitSpot</h2>
+<a id="a6c5467d286f1a76579f4c53f5e2cadb6" name="a6c5467d286f1a76579f4c53f5e2cadb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c5467d286f1a76579f4c53f5e2cadb6">&#9670;&nbsp;</a></span>idleSitSpot</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1069,8 +1800,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab591e988ff385228648ecca6d2dcef55" name="ab591e988ff385228648ecca6d2dcef55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab591e988ff385228648ecca6d2dcef55">&#9670;&nbsp;</a></span>migrateToSwarmRoom</h2>
+<a id="af2d563e734064ecff1267890e56c9076" name="af2d563e734064ecff1267890e56c9076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d563e734064ecff1267890e56c9076">&#9670;&nbsp;</a></span>migrateToSwarmRoom</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1083,8 +1814,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af7bf54666df4ab75ebd4257202d8bd5f" name="af7bf54666df4ab75ebd4257202d8bd5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7bf54666df4ab75ebd4257202d8bd5f">&#9670;&nbsp;</a></span>noCircleGroupCounter</h2>
+<a id="a4f0ab4c879b6a2255b6f6a6798d3d05a" name="a4f0ab4c879b6a2255b6f6a6798d3d05a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f0ab4c879b6a2255b6f6a6798d3d05a">&#9670;&nbsp;</a></span>noCircleGroupCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1097,8 +1828,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a78af09cffa401b36506d1d8f22b18496" name="a78af09cffa401b36506d1d8f22b18496"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78af09cffa401b36506d1d8f22b18496">&#9670;&nbsp;</a></span>panicFleeCrit</h2>
+<a id="abd5e7e86cc229e55453910e6f4acbd83" name="abd5e7e86cc229e55453910e6f4acbd83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd5e7e86cc229e55453910e6f4acbd83">&#9670;&nbsp;</a></span>panicFleeCrit</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1111,22 +1842,22 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="acec55c11f5fbadd9dbb0ea0f40dfebac" name="acec55c11f5fbadd9dbb0ea0f40dfebac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acec55c11f5fbadd9dbb0ea0f40dfebac">&#9670;&nbsp;</a></span>swooshToPos</h2>
+<a id="a709c12f53ce343431c1480be6d0382b2" name="a709c12f53ce343431c1480be6d0382b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a709c12f53ce343431c1480be6d0382b2">&#9670;&nbsp;</a></span>swooshToPos</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Vector2? CicadaAI.swooshToPos</td>
+          <td class="memname">Vector2 CicadaAI.swooshToPos</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6e275272b781a978d9122c454046cf26" name="a6e275272b781a978d9122c454046cf26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e275272b781a978d9122c454046cf26">&#9670;&nbsp;</a></span>tiredOfHuntingCounter</h2>
+<a id="a628eca136e15e5951f3dd60e02bcfb31" name="a628eca136e15e5951f3dd60e02bcfb31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a628eca136e15e5951f3dd60e02bcfb31">&#9670;&nbsp;</a></span>tiredOfHuntingCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1139,8 +1870,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa738c92c2301f61ef91223e09c99f4df" name="aa738c92c2301f61ef91223e09c99f4df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa738c92c2301f61ef91223e09c99f4df">&#9670;&nbsp;</a></span>tiredOfHuntingCreature</h2>
+<a id="a1d0a6fed0e59c4f8a95f97f68222620f" name="a1d0a6fed0e59c4f8a95f97f68222620f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d0a6fed0e59c4f8a95f97f68222620f">&#9670;&nbsp;</a></span>tiredOfHuntingCreature</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1153,8 +1884,9 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="Assembly-CSharp_8cs.html">Assembly-CSharp.cs</a></li>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>decompiled/<a class="el" href="Assembly-CSharp_8cs.html">Assembly-CSharp.cs</a></li>
+<li>decompiled/<a class="el" href="CicadaAI_8cs.html">CicadaAI.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

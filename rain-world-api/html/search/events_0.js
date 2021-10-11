@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['signalafterupdate_0',['SignalAfterUpdate',['../classFutile.html#ae9ad252c4cd7486cda354b959d868308',1,'Futile']]],
-  ['signalfixedupdate_1',['SignalFixedUpdate',['../classFutile.html#aacf938e3467ee1bf8e121788d682154b',1,'Futile']]],
-  ['signallateupdate_2',['SignalLateUpdate',['../classFutile.html#a7d457f2a8daed8c7ae1d76004c9afa46',1,'Futile']]],
-  ['signalorientationchange_3',['SignalOrientationChange',['../classFScreen.html#a4e13e81461596b4082574b1f467fe14b',1,'FScreen']]],
-  ['signalpress_4',['SignalPress',['../classFButton.html#ac80570d17e3dbe7b9484dad59d10a3ef',1,'FButton.SignalPress()'],['../classFSliceButton.html#ac099c73831bcb0f473b01602ca759943',1,'FSliceButton.SignalPress()']]],
-  ['signalrelease_5',['SignalRelease',['../classFButton.html#a97f0c7d1af6a34d73fde4be8313692a3',1,'FButton.SignalRelease()'],['../classFSliceButton.html#ac8df4fe283301f8bc5daa5fd070ede2b',1,'FSliceButton.SignalRelease()']]],
-  ['signalreleaseoutside_6',['SignalReleaseOutside',['../classFButton.html#ac9374f018da4b4c62ffd0d985219a25f',1,'FButton.SignalReleaseOutside()'],['../classFSliceButton.html#a461815a86f864a0538e0c42fa8b9003b',1,'FSliceButton.SignalReleaseOutside()']]],
-  ['signalresize_7',['SignalResize',['../classFScreen.html#a5f0eed86c86233ecac5ec4d5cb9c1c30',1,'FScreen']]],
-  ['signalupdate_8',['SignalUpdate',['../classFutile.html#a1225b4d0a9a949e88e477af84bf298db',1,'Futile']]]
+  ['signalafterupdate_0',['SignalAfterUpdate',['../classFutile.html#a4a5e8c57b24173775744e6c66b2161ec',1,'Futile']]],
+  ['signalfixedupdate_1',['SignalFixedUpdate',['../classFutile.html#a5cbc7e8d5bb216b50775b8e4890d101c',1,'Futile']]],
+  ['signallateupdate_2',['SignalLateUpdate',['../classFutile.html#a01f8ea271e6640adc1a4ece393d7bc68',1,'Futile']]],
+  ['signalorientationchange_3',['SignalOrientationChange',['../classFScreen.html#a894500ecb72caf615a453ddbaacfa046',1,'FScreen']]],
+  ['signalpress_4',['SignalPress',['../classFButton.html#a911ab39ec1beb9fc455b177de54dca64',1,'FButton.SignalPress()'],['../classFSliceButton.html#ae6852e0e71b76ef66f174b27c883aebc',1,'FSliceButton.SignalPress()']]],
+  ['signalrelease_5',['SignalRelease',['../classFButton.html#abddf5931f1cdbc80cc586592a9fe0d07',1,'FButton.SignalRelease()'],['../classFSliceButton.html#ad36d692abc0489da22eaf2b2d1710856',1,'FSliceButton.SignalRelease()']]],
+  ['signalreleaseoutside_6',['SignalReleaseOutside',['../classFButton.html#adc101a8cb52279d2c0518c9043b37ef1',1,'FButton.SignalReleaseOutside()'],['../classFSliceButton.html#aec297e3d56686481af1ef7d63fc9f777',1,'FSliceButton.SignalReleaseOutside()']]],
+  ['signalresize_7',['SignalResize',['../classFScreen.html#a887defe8950fc65eafc4a80fad3c229b',1,'FScreen']]],
+  ['signalupdate_8',['SignalUpdate',['../classFutile.html#a86ac8193b902f76f5bf8c487e023fd11',1,'Futile']]]
 ];

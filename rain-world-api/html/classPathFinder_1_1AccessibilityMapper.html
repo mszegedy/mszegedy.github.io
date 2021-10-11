@@ -81,7 +81,15 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4e865bc2d293ff572615b3ae7b50917a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a4e865bc2d293ff572615b3ae7b50917a">AccessibilityMapper</a> (<a class="el" href="classPathFinder.html">PathFinder</a> initiator, <a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> <a class="el" href="classPathFinder.html#a4bd932b6623a7de7ab5efe61e585e727">accessibilityCenter</a>, <a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>[] <a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a495f88dc37b4e4992ec8e4123854cfb5">alreadyCheckedTiles</a>, bool <a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a7f055f6b613c3d551079f1d4b469db33">taintedByForbiddenNode</a>)</td></tr>
+<tr class="memitem:a4e865bc2d293ff572615b3ae7b50917a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a4e865bc2d293ff572615b3ae7b50917a">AccessibilityMapper</a> (<a class="el" href="classPathFinder.html">PathFinder</a> initiator, <a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> <a class="el" href="classPathFinder.html#a14e20a3a8c3abf00880a46f366544bd1">accessibilityCenter</a>, <a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>[] <a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a495f88dc37b4e4992ec8e4123854cfb5">alreadyCheckedTiles</a>, bool <a class="el" href="classPathFinder_1_1AccessibilityMapper.html#adb454c1fa70093bb92f4d568643c69e4">taintedByForbiddenNode</a>)</td></tr>
+<tr class="separator:a4e865bc2d293ff572615b3ae7b50917a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa68ae305b6b0eb0f1f3d94b78b270554"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#aa68ae305b6b0eb0f1f3d94b78b270554">UpdateAccessibilityMapping</a> ()</td></tr>
+<tr class="separator:aa68ae305b6b0eb0f1f3d94b78b270554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4be2b04be4907a6e2c4c6ff11be0d08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#ae4be2b04be4907a6e2c4c6ff11be0d08">CullClients</a> (<a class="el" href="classPathFinder.html">PathFinder</a> dontReInitiateMe)</td></tr>
+<tr class="separator:ae4be2b04be4907a6e2c4c6ff11be0d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52b36ffa6955dfd8b7948355cb4492a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a52b36ffa6955dfd8b7948355cb4492a0">AddFreshClient</a> (<a class="el" href="classPathFinder.html">PathFinder</a> newClient)</td></tr>
+<tr class="separator:a52b36ffa6955dfd8b7948355cb4492a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e865bc2d293ff572615b3ae7b50917a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a4e865bc2d293ff572615b3ae7b50917a">AccessibilityMapper</a> (<a class="el" href="classPathFinder.html">PathFinder</a> initiator, <a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> <a class="el" href="classPathFinder.html#a14e20a3a8c3abf00880a46f366544bd1">accessibilityCenter</a>, <a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>[] <a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a495f88dc37b4e4992ec8e4123854cfb5">alreadyCheckedTiles</a>, bool <a class="el" href="classPathFinder_1_1AccessibilityMapper.html#adb454c1fa70093bb92f4d568643c69e4">taintedByForbiddenNode</a>)</td></tr>
 <tr class="separator:a4e865bc2d293ff572615b3ae7b50917a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa68ae305b6b0eb0f1f3d94b78b270554"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#aa68ae305b6b0eb0f1f3d94b78b270554">UpdateAccessibilityMapping</a> ()</td></tr>
 <tr class="separator:aa68ae305b6b0eb0f1f3d94b78b270554"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -94,27 +102,29 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a329504b11319964d0b3b4d26fb145aa1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a329504b11319964d0b3b4d26fb145aa1">CreaturesPathingIdentical</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> A, <a class="el" href="classAbstractCreature.html">AbstractCreature</a> B)</td></tr>
 <tr class="separator:a329504b11319964d0b3b4d26fb145aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329504b11319964d0b3b4d26fb145aa1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a329504b11319964d0b3b4d26fb145aa1">CreaturesPathingIdentical</a> (<a class="el" href="classAbstractCreature.html">AbstractCreature</a> A, <a class="el" href="classAbstractCreature.html">AbstractCreature</a> B)</td></tr>
+<tr class="separator:a329504b11319964d0b3b4d26fb145aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a34e8c2fe88fdbeeb9d7787a9b9085d8f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classPathFinder.html">PathFinder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a34e8c2fe88fdbeeb9d7787a9b9085d8f">clients</a></td></tr>
-<tr class="separator:a34e8c2fe88fdbeeb9d7787a9b9085d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18b24812071eac6338cb0554d529e56c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a18b24812071eac6338cb0554d529e56c">finished</a></td></tr>
-<tr class="separator:a18b24812071eac6338cb0554d529e56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f055f6b613c3d551079f1d4b469db33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a7f055f6b613c3d551079f1d4b469db33">taintedByForbiddenNode</a></td></tr>
-<tr class="separator:a7f055f6b613c3d551079f1d4b469db33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94e00d477ae32b924be980f07a484809"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoom.html">Room</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a94e00d477ae32b924be980f07a484809">mappingRoom</a></td></tr>
-<tr class="separator:a94e00d477ae32b924be980f07a484809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877e857fc279724e2227b039647903a0"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classPathFinder.html">PathFinder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a877e857fc279724e2227b039647903a0">clients</a></td></tr>
+<tr class="separator:a877e857fc279724e2227b039647903a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ceaba5a36bbf3ce525f0fd58f04c13a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a4ceaba5a36bbf3ce525f0fd58f04c13a">finished</a></td></tr>
+<tr class="separator:a4ceaba5a36bbf3ce525f0fd58f04c13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb454c1fa70093bb92f4d568643c69e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#adb454c1fa70093bb92f4d568643c69e4">taintedByForbiddenNode</a></td></tr>
+<tr class="separator:adb454c1fa70093bb92f4d568643c69e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53c2bdd9148c0954d4703be20cc252b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoom.html">Room</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a53c2bdd9148c0954d4703be20cc252b9">mappingRoom</a></td></tr>
+<tr class="separator:a53c2bdd9148c0954d4703be20cc252b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a3995820ddc33f0a08529e4069a1aba2a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a3995820ddc33f0a08529e4069a1aba2a">mapAccessibilityMode</a></td></tr>
-<tr class="separator:a3995820ddc33f0a08529e4069a1aba2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8790f4e4ddc1150bbe1b76df23dd5fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#af8790f4e4ddc1150bbe1b76df23dd5fb">mapAccessibilityMode</a></td></tr>
+<tr class="separator:af8790f4e4ddc1150bbe1b76df23dd5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a0e28b1093b5e4757f9b31ed91efc4b07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPathFinder.html">PathFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a0e28b1093b5e4757f9b31ed91efc4b07">parent</a><code> [get]</code></td></tr>
-<tr class="separator:a0e28b1093b5e4757f9b31ed91efc4b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f53c385e9fcb536bf42108d4e9ec0b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPathFinder.html">PathFinder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a4f53c385e9fcb536bf42108d4e9ec0b0">parent</a><code> [get]</code></td></tr>
+<tr class="separator:a4f53c385e9fcb536bf42108d4e9ec0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -124,19 +134,73 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:acf1a1183cbe7a4acd35727093fd14261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ad2a469acbc5933e00cbabb9d319d99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a9ad2a469acbc5933e00cbabb9d319d99">Absorb</a> (<a class="el" href="classPathFinder_1_1AccessibilityMapper.html">AccessibilityMapper</a> otherMapper)</td></tr>
 <tr class="separator:a9ad2a469acbc5933e00cbabb9d319d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3642664e2ddebd056176b280d850e375"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a3642664e2ddebd056176b280d850e375">UpdatePotentialMergers</a> ()</td></tr>
+<tr class="separator:a3642664e2ddebd056176b280d850e375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf1a1183cbe7a4acd35727093fd14261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#acf1a1183cbe7a4acd35727093fd14261">CheckMerge</a> ()</td></tr>
+<tr class="separator:acf1a1183cbe7a4acd35727093fd14261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad2a469acbc5933e00cbabb9d319d99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a9ad2a469acbc5933e00cbabb9d319d99">Absorb</a> (<a class="el" href="classPathFinder_1_1AccessibilityMapper.html">AccessibilityMapper</a> otherMapper)</td></tr>
+<tr class="separator:a9ad2a469acbc5933e00cbabb9d319d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aeaf304f6c5f5f64b5ee5386522d18b12"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#aeaf304f6c5f5f64b5ee5386522d18b12">accessibilityCheckNext</a></td></tr>
-<tr class="separator:aeaf304f6c5f5f64b5ee5386522d18b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d86373931773563ca508db10316bfd8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a3d86373931773563ca508db10316bfd8">accessibilityCheckNext</a></td></tr>
+<tr class="separator:a3d86373931773563ca508db10316bfd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a495f88dc37b4e4992ec8e4123854cfb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a495f88dc37b4e4992ec8e4123854cfb5">alreadyCheckedTiles</a></td></tr>
 <tr class="separator:a495f88dc37b4e4992ec8e4123854cfb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1685bdb695c022c19cefb206303728"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classPathFinder.html">PathFinder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#a5e1685bdb695c022c19cefb206303728">potentialMergers</a> = new List&lt;<a class="el" href="classPathFinder.html">PathFinder</a>&gt;()</td></tr>
-<tr class="separator:a5e1685bdb695c022c19cefb206303728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9c8bdd10bb6b1d78cf99d123eff42f2"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classPathFinder.html">PathFinder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html#ae9c8bdd10bb6b1d78cf99d123eff42f2">potentialMergers</a> = new List&lt;<a class="el" href="classPathFinder.html">PathFinder</a>&gt;()</td></tr>
+<tr class="separator:ae9c8bdd10bb6b1d78cf99d123eff42f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4e865bc2d293ff572615b3ae7b50917a" name="a4e865bc2d293ff572615b3ae7b50917a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e865bc2d293ff572615b3ae7b50917a">&#9670;&nbsp;</a></span>AccessibilityMapper()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e865bc2d293ff572615b3ae7b50917a">&#9670;&nbsp;</a></span>AccessibilityMapper() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PathFinder.AccessibilityMapper.AccessibilityMapper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPathFinder.html">PathFinder</a>&#160;</td>
+          <td class="paramname"><em>initiator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td>
+          <td class="paramname"><em>accessibilityCenter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>[]&#160;</td>
+          <td class="paramname"><em>alreadyCheckedTiles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>taintedByForbiddenNode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e865bc2d293ff572615b3ae7b50917a" name="a4e865bc2d293ff572615b3ae7b50917a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e865bc2d293ff572615b3ae7b50917a">&#9670;&nbsp;</a></span>AccessibilityMapper() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,7 +249,33 @@ Private Attributes</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9ad2a469acbc5933e00cbabb9d319d99" name="a9ad2a469acbc5933e00cbabb9d319d99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ad2a469acbc5933e00cbabb9d319d99">&#9670;&nbsp;</a></span>Absorb()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad2a469acbc5933e00cbabb9d319d99">&#9670;&nbsp;</a></span>Absorb() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PathFinder.AccessibilityMapper.Absorb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPathFinder_1_1AccessibilityMapper.html">AccessibilityMapper</a>&#160;</td>
+          <td class="paramname"><em>otherMapper</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ad2a469acbc5933e00cbabb9d319d99" name="a9ad2a469acbc5933e00cbabb9d319d99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad2a469acbc5933e00cbabb9d319d99">&#9670;&nbsp;</a></span>Absorb() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,7 +301,33 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a52b36ffa6955dfd8b7948355cb4492a0" name="a52b36ffa6955dfd8b7948355cb4492a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52b36ffa6955dfd8b7948355cb4492a0">&#9670;&nbsp;</a></span>AddFreshClient()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52b36ffa6955dfd8b7948355cb4492a0">&#9670;&nbsp;</a></span>AddFreshClient() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PathFinder.AccessibilityMapper.AddFreshClient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPathFinder.html">PathFinder</a>&#160;</td>
+          <td class="paramname"><em>newClient</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52b36ffa6955dfd8b7948355cb4492a0" name="a52b36ffa6955dfd8b7948355cb4492a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52b36ffa6955dfd8b7948355cb4492a0">&#9670;&nbsp;</a></span>AddFreshClient() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +353,32 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="acf1a1183cbe7a4acd35727093fd14261" name="acf1a1183cbe7a4acd35727093fd14261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf1a1183cbe7a4acd35727093fd14261">&#9670;&nbsp;</a></span>CheckMerge()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1a1183cbe7a4acd35727093fd14261">&#9670;&nbsp;</a></span>CheckMerge() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PathFinder.AccessibilityMapper.CheckMerge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf1a1183cbe7a4acd35727093fd14261" name="acf1a1183cbe7a4acd35727093fd14261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1a1183cbe7a4acd35727093fd14261">&#9670;&nbsp;</a></span>CheckMerge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,7 +403,43 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a329504b11319964d0b3b4d26fb145aa1" name="a329504b11319964d0b3b4d26fb145aa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a329504b11319964d0b3b4d26fb145aa1">&#9670;&nbsp;</a></span>CreaturesPathingIdentical()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a329504b11319964d0b3b4d26fb145aa1">&#9670;&nbsp;</a></span>CreaturesPathingIdentical() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool PathFinder.AccessibilityMapper.CreaturesPathingIdentical </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAbstractCreature.html">AbstractCreature</a>&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a329504b11319964d0b3b4d26fb145aa1" name="a329504b11319964d0b3b4d26fb145aa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329504b11319964d0b3b4d26fb145aa1">&#9670;&nbsp;</a></span>CreaturesPathingIdentical() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -298,7 +475,33 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ae4be2b04be4907a6e2c4c6ff11be0d08" name="ae4be2b04be4907a6e2c4c6ff11be0d08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4be2b04be4907a6e2c4c6ff11be0d08">&#9670;&nbsp;</a></span>CullClients()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4be2b04be4907a6e2c4c6ff11be0d08">&#9670;&nbsp;</a></span>CullClients() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PathFinder.AccessibilityMapper.CullClients </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPathFinder.html">PathFinder</a>&#160;</td>
+          <td class="paramname"><em>dontReInitiateMe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4be2b04be4907a6e2c4c6ff11be0d08" name="ae4be2b04be4907a6e2c4c6ff11be0d08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4be2b04be4907a6e2c4c6ff11be0d08">&#9670;&nbsp;</a></span>CullClients() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,7 +527,32 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aa68ae305b6b0eb0f1f3d94b78b270554" name="aa68ae305b6b0eb0f1f3d94b78b270554"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa68ae305b6b0eb0f1f3d94b78b270554">&#9670;&nbsp;</a></span>UpdateAccessibilityMapping()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa68ae305b6b0eb0f1f3d94b78b270554">&#9670;&nbsp;</a></span>UpdateAccessibilityMapping() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PathFinder.AccessibilityMapper.UpdateAccessibilityMapping </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa68ae305b6b0eb0f1f3d94b78b270554" name="aa68ae305b6b0eb0f1f3d94b78b270554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa68ae305b6b0eb0f1f3d94b78b270554">&#9670;&nbsp;</a></span>UpdateAccessibilityMapping() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -349,7 +577,32 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a3642664e2ddebd056176b280d850e375" name="a3642664e2ddebd056176b280d850e375"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3642664e2ddebd056176b280d850e375">&#9670;&nbsp;</a></span>UpdatePotentialMergers()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3642664e2ddebd056176b280d850e375">&#9670;&nbsp;</a></span>UpdatePotentialMergers() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PathFinder.AccessibilityMapper.UpdatePotentialMergers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3642664e2ddebd056176b280d850e375" name="a3642664e2ddebd056176b280d850e375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3642664e2ddebd056176b280d850e375">&#9670;&nbsp;</a></span>UpdatePotentialMergers() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,8 +627,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aeaf304f6c5f5f64b5ee5386522d18b12" name="aeaf304f6c5f5f64b5ee5386522d18b12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaf304f6c5f5f64b5ee5386522d18b12">&#9670;&nbsp;</a></span>accessibilityCheckNext</h2>
+<a id="a3d86373931773563ca508db10316bfd8" name="a3d86373931773563ca508db10316bfd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d86373931773563ca508db10316bfd8">&#9670;&nbsp;</a></span>accessibilityCheckNext</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -384,7 +637,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&gt; PathFinder.AccessibilityMapper.accessibilityCheckNext</td>
+          <td class="memname">List&lt; <a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> &gt; PathFinder.AccessibilityMapper.accessibilityCheckNext</td>
         </tr>
       </table>
   </td>
@@ -418,22 +671,22 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a34e8c2fe88fdbeeb9d7787a9b9085d8f" name="a34e8c2fe88fdbeeb9d7787a9b9085d8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34e8c2fe88fdbeeb9d7787a9b9085d8f">&#9670;&nbsp;</a></span>clients</h2>
+<a id="a877e857fc279724e2227b039647903a0" name="a877e857fc279724e2227b039647903a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a877e857fc279724e2227b039647903a0">&#9670;&nbsp;</a></span>clients</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="classPathFinder.html">PathFinder</a>&gt; PathFinder.AccessibilityMapper.clients</td>
+          <td class="memname">List&lt; <a class="el" href="classPathFinder.html">PathFinder</a> &gt; PathFinder.AccessibilityMapper.clients</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a18b24812071eac6338cb0554d529e56c" name="a18b24812071eac6338cb0554d529e56c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18b24812071eac6338cb0554d529e56c">&#9670;&nbsp;</a></span>finished</h2>
+<a id="a4ceaba5a36bbf3ce525f0fd58f04c13a" name="a4ceaba5a36bbf3ce525f0fd58f04c13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ceaba5a36bbf3ce525f0fd58f04c13a">&#9670;&nbsp;</a></span>finished</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,8 +699,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3995820ddc33f0a08529e4069a1aba2a" name="a3995820ddc33f0a08529e4069a1aba2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3995820ddc33f0a08529e4069a1aba2a">&#9670;&nbsp;</a></span>mapAccessibilityMode</h2>
+<a id="af8790f4e4ddc1150bbe1b76df23dd5fb" name="af8790f4e4ddc1150bbe1b76df23dd5fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8790f4e4ddc1150bbe1b76df23dd5fb">&#9670;&nbsp;</a></span>mapAccessibilityMode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -468,8 +721,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a94e00d477ae32b924be980f07a484809" name="a94e00d477ae32b924be980f07a484809"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94e00d477ae32b924be980f07a484809">&#9670;&nbsp;</a></span>mappingRoom</h2>
+<a id="a53c2bdd9148c0954d4703be20cc252b9" name="a53c2bdd9148c0954d4703be20cc252b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53c2bdd9148c0954d4703be20cc252b9">&#9670;&nbsp;</a></span>mappingRoom</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,8 +735,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5e1685bdb695c022c19cefb206303728" name="a5e1685bdb695c022c19cefb206303728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e1685bdb695c022c19cefb206303728">&#9670;&nbsp;</a></span>potentialMergers</h2>
+<a id="ae9c8bdd10bb6b1d78cf99d123eff42f2" name="ae9c8bdd10bb6b1d78cf99d123eff42f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9c8bdd10bb6b1d78cf99d123eff42f2">&#9670;&nbsp;</a></span>potentialMergers</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -492,7 +745,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="classPathFinder.html">PathFinder</a>&gt; PathFinder.AccessibilityMapper.potentialMergers = new List&lt;<a class="el" href="classPathFinder.html">PathFinder</a>&gt;()</td>
+          <td class="memname">List&lt; <a class="el" href="classPathFinder.html">PathFinder</a> &gt; PathFinder.AccessibilityMapper.potentialMergers = new List&lt;<a class="el" href="classPathFinder.html">PathFinder</a>&gt;()</td>
         </tr>
       </table>
   </td>
@@ -504,8 +757,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f055f6b613c3d551079f1d4b469db33" name="a7f055f6b613c3d551079f1d4b469db33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f055f6b613c3d551079f1d4b469db33">&#9670;&nbsp;</a></span>taintedByForbiddenNode</h2>
+<a id="adb454c1fa70093bb92f4d568643c69e4" name="adb454c1fa70093bb92f4d568643c69e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb454c1fa70093bb92f4d568643c69e4">&#9670;&nbsp;</a></span>taintedByForbiddenNode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -519,8 +772,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a0e28b1093b5e4757f9b31ed91efc4b07" name="a0e28b1093b5e4757f9b31ed91efc4b07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e28b1093b5e4757f9b31ed91efc4b07">&#9670;&nbsp;</a></span>parent</h2>
+<a id="a4f53c385e9fcb536bf42108d4e9ec0b0" name="a4f53c385e9fcb536bf42108d4e9ec0b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f53c385e9fcb536bf42108d4e9ec0b0">&#9670;&nbsp;</a></span>parent</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,8 +794,9 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="Assembly-CSharp_8cs.html">Assembly-CSharp.cs</a></li>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>decompiled/<a class="el" href="Assembly-CSharp_8cs.html">Assembly-CSharp.cs</a></li>
+<li>decompiled/<a class="el" href="PathFinder_8cs.html">PathFinder.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
