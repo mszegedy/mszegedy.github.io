@@ -82,7 +82,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a57949b7408cd5fba3ae7f02e62bd2bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f3f85baf62122307f029f83778e159b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a7f3f85baf62122307f029f83778e159b">getAItile</a> (Vector2 pos)</td></tr>
 <tr class="separator:a7f3f85baf62122307f029f83778e159b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56fd13eea2ff433a3e8f49c58cf1227"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ad56fd13eea2ff433a3e8f49c58cf1227">getAItile</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos)</td></tr>
+<tr class="memitem:ad56fd13eea2ff433a3e8f49c58cf1227"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ad56fd13eea2ff433a3e8f49c58cf1227">getAItile</a> (IntVector2 pos)</td></tr>
 <tr class="separator:ad56fd13eea2ff433a3e8f49c58cf1227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd13794e2be4dc1fe00a61b545bd2086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#abd13794e2be4dc1fe00a61b545bd2086">getAItile</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> pos)</td></tr>
 <tr class="separator:abd13794e2be4dc1fe00a61b545bd2086"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -92,109 +92,45 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad8e4141789f4ab215f531694c8964640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06e1760af24708c9b2a00792da5ab11c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a06e1760af24708c9b2a00792da5ab11c">getClampedAItile</a> (int x, int y)</td></tr>
 <tr class="separator:a06e1760af24708c9b2a00792da5ab11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a597ef4889a0b770b62f6a5b170f6bb4d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a597ef4889a0b770b62f6a5b170f6bb4d">Visibility</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos)</td></tr>
+<tr class="memitem:a597ef4889a0b770b62f6a5b170f6bb4d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a597ef4889a0b770b62f6a5b170f6bb4d">Visibility</a> (IntVector2 pos)</td></tr>
 <tr class="separator:a597ef4889a0b770b62f6a5b170f6bb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0892d03e6d02418a942ffdb5a10f7af6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a0892d03e6d02418a942ffdb5a10f7af6">TileAccessibleToCreature</a> (int x, int y, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a0892d03e6d02418a942ffdb5a10f7af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad45b81349c3659a4d30a71449d408ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aad45b81349c3659a4d30a71449d408ea">WorldCoordinateAccessibleToCreature</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:aad45b81349c3659a4d30a71449d408ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f8d090753026bc1f5e6a9de28fb8f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a54f8d090753026bc1f5e6a9de28fb8f1">TileOrNeighborsAccessibleToCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:a54f8d090753026bc1f5e6a9de28fb8f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a54f8d090753026bc1f5e6a9de28fb8f1">TileOrNeighborsAccessibleToCreature</a> (IntVector2 pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a54f8d090753026bc1f5e6a9de28fb8f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ce1b349253b35d71680728d83e43af4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a0ce1b349253b35d71680728d83e43af4">ClampedTileAccessibleToCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:a0ce1b349253b35d71680728d83e43af4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a0ce1b349253b35d71680728d83e43af4">ClampedTileAccessibleToCreature</a> (IntVector2 pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a0ce1b349253b35d71680728d83e43af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61020c0804a6c3fe334f2e0b86f53db9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a61020c0804a6c3fe334f2e0b86f53db9">TileAccessibleToCreature</a> (Vector2 pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a61020c0804a6c3fe334f2e0b86f53db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26e150b995e39e0db0908e17d9927222"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a26e150b995e39e0db0908e17d9927222">TileAccessibleToCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:a26e150b995e39e0db0908e17d9927222"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a26e150b995e39e0db0908e17d9927222">TileAccessibleToCreature</a> (IntVector2 pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a26e150b995e39e0db0908e17d9927222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad573584d1349116d63774a6c5c5b1cf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ad573584d1349116d63774a6c5c5b1cf4">TileCostForCreature</a> (int x, int y, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:ad573584d1349116d63774a6c5c5b1cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92fcc759de8276d7f29838de6c9480ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a92fcc759de8276d7f29838de6c9480ab">TileCostForCreature</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a92fcc759de8276d7f29838de6c9480ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fd37a8b4a66c98fab6d4ecd89262d2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a8fd37a8b4a66c98fab6d4ecd89262d2b">TileCostForCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:a8fd37a8b4a66c98fab6d4ecd89262d2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a8fd37a8b4a66c98fab6d4ecd89262d2b">TileCostForCreature</a> (IntVector2 pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a8fd37a8b4a66c98fab6d4ecd89262d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69a3c3134094a2b49f0522df037b8fac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCreatureSpecificAImap.html">CreatureSpecificAImap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a69a3c3134094a2b49f0522df037b8fac">CreatureSpecificAImap</a> (<a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a69a3c3134094a2b49f0522df037b8fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36fc8b1d446fe2b7c021924ea3abd8b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a36fc8b1d446fe2b7c021924ea3abd8b3">TryForAccessibleNeighbor</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> tile, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:a36fc8b1d446fe2b7c021924ea3abd8b3"><td class="memItemLeft" align="right" valign="top">IntVector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a36fc8b1d446fe2b7c021924ea3abd8b3">TryForAccessibleNeighbor</a> (IntVector2 tile, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a36fc8b1d446fe2b7c021924ea3abd8b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03119422a823b616976c802660f22cd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a03119422a823b616976c802660f22cd8">TriangulateDistance</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> A, <a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> B, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:a03119422a823b616976c802660f22cd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a03119422a823b616976c802660f22cd8">TriangulateDistance</a> (IntVector2 A, IntVector2 B, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a03119422a823b616976c802660f22cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17243fa94efdc328bee33e639e5a3567"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a17243fa94efdc328bee33e639e5a3567">TriangulateDistance</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> A, <a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> B, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a17243fa94efdc328bee33e639e5a3567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa55d01255b0dd7fa6c8caf9f8919ca39"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aa55d01255b0dd7fa6c8caf9f8919ca39">AccessibilityForCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:aa55d01255b0dd7fa6c8caf9f8919ca39"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aa55d01255b0dd7fa6c8caf9f8919ca39">AccessibilityForCreature</a> (IntVector2 pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:aa55d01255b0dd7fa6c8caf9f8919ca39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b7db6322bb8fdeb3724f3b460f65e9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a7b7db6322bb8fdeb3724f3b460f65e9e">ExitDistanceForCreatureAndCheckNeighbours</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, int creatureSpecificExitIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:a7b7db6322bb8fdeb3724f3b460f65e9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a7b7db6322bb8fdeb3724f3b460f65e9e">ExitDistanceForCreatureAndCheckNeighbours</a> (IntVector2 pos, int creatureSpecificExitIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a7b7db6322bb8fdeb3724f3b460f65e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c791865ec8c8e7eb820ef441701c23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a36c791865ec8c8e7eb820ef441701c23">ExitDistanceForCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, int creatureSpecificExitIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:a36c791865ec8c8e7eb820ef441701c23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a36c791865ec8c8e7eb820ef441701c23">ExitDistanceForCreature</a> (IntVector2 pos, int creatureSpecificExitIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:a36c791865ec8c8e7eb820ef441701c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadfc98547ae11cadd87482d4382b751b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aadfc98547ae11cadd87482d4382b751b">ExitDistanceForCreature</a> (Vector2 pos, int exitNumber, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:aadfc98547ae11cadd87482d4382b751b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadea9a55570b2adc86dc62f026a06c8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aadea9a55570b2adc86dc62f026a06c8d">ExitReachableFromTile</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, int globalNodeIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:aadea9a55570b2adc86dc62f026a06c8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aadea9a55570b2adc86dc62f026a06c8d">ExitReachableFromTile</a> (IntVector2 pos, int globalNodeIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:aadea9a55570b2adc86dc62f026a06c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac007b3e2f8dd6c27c321f825cf8dba7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ac007b3e2f8dd6c27c321f825cf8dba7a">AnyExitReachableFromTile</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:ac007b3e2f8dd6c27c321f825cf8dba7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd1078269a844948a9de5d3fdf799ce0"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#abd1078269a844948a9de5d3fdf799ce0">GetCompressedVisibilityMap</a> ()</td></tr>
-<tr class="separator:abd1078269a844948a9de5d3fdf799ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d3f6ca5d7f607e1442658f7a8c1d171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a2d3f6ca5d7f607e1442658f7a8c1d171">SetVisibilityMapFromCompressedArray</a> (int[] ca)</td></tr>
-<tr class="separator:a2d3f6ca5d7f607e1442658f7a8c1d171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fc1e9c4ce27b72d9ef9c88d259dfcd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a1fc1e9c4ce27b72d9ef9c88d259dfcd6">AImap</a> (<a class="el" href="classRoom.html">Room</a> rm, int w, int h)</td></tr>
-<tr class="separator:a1fc1e9c4ce27b72d9ef9c88d259dfcd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50b589e42622ddbac5dd65f60bd2f761"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a50b589e42622ddbac5dd65f60bd2f761">NewWorld</a> (int newRoomIndex)</td></tr>
-<tr class="separator:a50b589e42622ddbac5dd65f60bd2f761"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae80e9eaeca569588645d21a8b32faea4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ae80e9eaeca569588645d21a8b32faea4">IsConnectionAllowedForCreature</a> (<a class="el" href="classMovementConnection.html">MovementConnection</a> connection, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:ae80e9eaeca569588645d21a8b32faea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57949b7408cd5fba3ae7f02e62bd2bf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a57949b7408cd5fba3ae7f02e62bd2bf1">ConnectionCostForCreature</a> (<a class="el" href="classMovementConnection.html">MovementConnection</a> connection, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a57949b7408cd5fba3ae7f02e62bd2bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f3f85baf62122307f029f83778e159b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a7f3f85baf62122307f029f83778e159b">getAItile</a> (Vector2 pos)</td></tr>
-<tr class="separator:a7f3f85baf62122307f029f83778e159b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56fd13eea2ff433a3e8f49c58cf1227"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ad56fd13eea2ff433a3e8f49c58cf1227">getAItile</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos)</td></tr>
-<tr class="separator:ad56fd13eea2ff433a3e8f49c58cf1227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd13794e2be4dc1fe00a61b545bd2086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#abd13794e2be4dc1fe00a61b545bd2086">getAItile</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> pos)</td></tr>
-<tr class="separator:abd13794e2be4dc1fe00a61b545bd2086"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44a4cd202efaad73ff28e14aa6b2948b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a44a4cd202efaad73ff28e14aa6b2948b">getAItile</a> (int x, int y)</td></tr>
-<tr class="separator:a44a4cd202efaad73ff28e14aa6b2948b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8e4141789f4ab215f531694c8964640"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ad8e4141789f4ab215f531694c8964640">getClampedAItile</a> (Vector2 pos)</td></tr>
-<tr class="separator:ad8e4141789f4ab215f531694c8964640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06e1760af24708c9b2a00792da5ab11c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a06e1760af24708c9b2a00792da5ab11c">getClampedAItile</a> (int x, int y)</td></tr>
-<tr class="separator:a06e1760af24708c9b2a00792da5ab11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a597ef4889a0b770b62f6a5b170f6bb4d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a597ef4889a0b770b62f6a5b170f6bb4d">Visibility</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos)</td></tr>
-<tr class="separator:a597ef4889a0b770b62f6a5b170f6bb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0892d03e6d02418a942ffdb5a10f7af6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a0892d03e6d02418a942ffdb5a10f7af6">TileAccessibleToCreature</a> (int x, int y, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a0892d03e6d02418a942ffdb5a10f7af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad45b81349c3659a4d30a71449d408ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aad45b81349c3659a4d30a71449d408ea">WorldCoordinateAccessibleToCreature</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:aad45b81349c3659a4d30a71449d408ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f8d090753026bc1f5e6a9de28fb8f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a54f8d090753026bc1f5e6a9de28fb8f1">TileOrNeighborsAccessibleToCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a54f8d090753026bc1f5e6a9de28fb8f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ce1b349253b35d71680728d83e43af4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a0ce1b349253b35d71680728d83e43af4">ClampedTileAccessibleToCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a0ce1b349253b35d71680728d83e43af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61020c0804a6c3fe334f2e0b86f53db9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a61020c0804a6c3fe334f2e0b86f53db9">TileAccessibleToCreature</a> (Vector2 pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a61020c0804a6c3fe334f2e0b86f53db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26e150b995e39e0db0908e17d9927222"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a26e150b995e39e0db0908e17d9927222">TileAccessibleToCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a26e150b995e39e0db0908e17d9927222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad573584d1349116d63774a6c5c5b1cf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ad573584d1349116d63774a6c5c5b1cf4">TileCostForCreature</a> (int x, int y, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:ad573584d1349116d63774a6c5c5b1cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92fcc759de8276d7f29838de6c9480ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a92fcc759de8276d7f29838de6c9480ab">TileCostForCreature</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a92fcc759de8276d7f29838de6c9480ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fd37a8b4a66c98fab6d4ecd89262d2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPathCost.html">PathCost</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a8fd37a8b4a66c98fab6d4ecd89262d2b">TileCostForCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a8fd37a8b4a66c98fab6d4ecd89262d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69a3c3134094a2b49f0522df037b8fac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCreatureSpecificAImap.html">CreatureSpecificAImap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a69a3c3134094a2b49f0522df037b8fac">CreatureSpecificAImap</a> (<a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a69a3c3134094a2b49f0522df037b8fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36fc8b1d446fe2b7c021924ea3abd8b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a36fc8b1d446fe2b7c021924ea3abd8b3">TryForAccessibleNeighbor</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> tile, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a36fc8b1d446fe2b7c021924ea3abd8b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03119422a823b616976c802660f22cd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a03119422a823b616976c802660f22cd8">TriangulateDistance</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> A, <a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> B, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a03119422a823b616976c802660f22cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17243fa94efdc328bee33e639e5a3567"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a17243fa94efdc328bee33e639e5a3567">TriangulateDistance</a> (<a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> A, <a class="el" href="structWorldCoordinate.html">WorldCoordinate</a> B, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a17243fa94efdc328bee33e639e5a3567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa55d01255b0dd7fa6c8caf9f8919ca39"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aa55d01255b0dd7fa6c8caf9f8919ca39">AccessibilityForCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:aa55d01255b0dd7fa6c8caf9f8919ca39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b7db6322bb8fdeb3724f3b460f65e9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a7b7db6322bb8fdeb3724f3b460f65e9e">ExitDistanceForCreatureAndCheckNeighbours</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, int creatureSpecificExitIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a7b7db6322bb8fdeb3724f3b460f65e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c791865ec8c8e7eb820ef441701c23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a36c791865ec8c8e7eb820ef441701c23">ExitDistanceForCreature</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, int creatureSpecificExitIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:a36c791865ec8c8e7eb820ef441701c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadfc98547ae11cadd87482d4382b751b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aadfc98547ae11cadd87482d4382b751b">ExitDistanceForCreature</a> (Vector2 pos, int exitNumber, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:aadfc98547ae11cadd87482d4382b751b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadea9a55570b2adc86dc62f026a06c8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#aadea9a55570b2adc86dc62f026a06c8d">ExitReachableFromTile</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, int globalNodeIndex, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
-<tr class="separator:aadea9a55570b2adc86dc62f026a06c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac007b3e2f8dd6c27c321f825cf8dba7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ac007b3e2f8dd6c27c321f825cf8dba7a">AnyExitReachableFromTile</a> (<a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
+<tr class="memitem:ac007b3e2f8dd6c27c321f825cf8dba7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ac007b3e2f8dd6c27c321f825cf8dba7a">AnyExitReachableFromTile</a> (IntVector2 pos, <a class="el" href="classCreatureTemplate.html">CreatureTemplate</a> crit)</td></tr>
 <tr class="separator:ac007b3e2f8dd6c27c321f825cf8dba7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd1078269a844948a9de5d3fdf799ce0"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#abd1078269a844948a9de5d3fdf799ce0">GetCompressedVisibilityMap</a> ()</td></tr>
 <tr class="separator:abd1078269a844948a9de5d3fdf799ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,62 +141,20 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7fd65a3b2ffcc3c27bcffb1af6c4e388"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>[,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a7fd65a3b2ffcc3c27bcffb1af6c4e388">map</a></td></tr>
 <tr class="separator:a7fd65a3b2ffcc3c27bcffb1af6c4e388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0676c30bff87f71f50f4d7d1528fbae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a0676c30bff87f71f50f4d7d1528fbae7">standardTile</a></td></tr>
-<tr class="separator:a0676c30bff87f71f50f4d7d1528fbae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c664d445f8e2de3b88dfbcdf9aebfd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoom.html">Room</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a8c664d445f8e2de3b88dfbcdf9aebfd6">room</a></td></tr>
-<tr class="separator:a8c664d445f8e2de3b88dfbcdf9aebfd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c340ce496fde55ba044c017c5561b19"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a9c340ce496fde55ba044c017c5561b19">width</a></td></tr>
-<tr class="separator:a9c340ce496fde55ba044c017c5561b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6fb6c31c19beb79926163e9ba534503"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#ad6fb6c31c19beb79926163e9ba534503">height</a></td></tr>
-<tr class="separator:ad6fb6c31c19beb79926163e9ba534503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82f55f2914143cc56a1f80f756843450"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAItile.html">AItile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a82f55f2914143cc56a1f80f756843450">standardTile</a></td></tr>
+<tr class="separator:a82f55f2914143cc56a1f80f756843450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b7140ad213c58b346a848d5694061a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRoom.html">Room</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#af4b7140ad213c58b346a848d5694061a">room</a></td></tr>
+<tr class="separator:af4b7140ad213c58b346a848d5694061a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd6c53e4671bfea5b4914a684805bcf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a3cd6c53e4671bfea5b4914a684805bcf">width</a></td></tr>
+<tr class="separator:a3cd6c53e4671bfea5b4914a684805bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd43782ef897c2378f58c349046f1cfd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#acd43782ef897c2378f58c349046f1cfd">height</a></td></tr>
+<tr class="separator:acd43782ef897c2378f58c349046f1cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f336fb1e049f4042effeaa20ede11c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCreatureSpecificAImap.html">CreatureSpecificAImap</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAImap.html#a6f336fb1e049f4042effeaa20ede11c3">creatureSpecificAImaps</a></td></tr>
 <tr class="separator:a6f336fb1e049f4042effeaa20ede11c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1fc1e9c4ce27b72d9ef9c88d259dfcd6" name="a1fc1e9c4ce27b72d9ef9c88d259dfcd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fc1e9c4ce27b72d9ef9c88d259dfcd6">&#9670;&nbsp;</a></span>AImap() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">AImap.AImap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classRoom.html">Room</a>&#160;</td>
-          <td class="paramname"><em>rm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>h</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1fc1e9c4ce27b72d9ef9c88d259dfcd6" name="a1fc1e9c4ce27b72d9ef9c88d259dfcd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fc1e9c4ce27b72d9ef9c88d259dfcd6">&#9670;&nbsp;</a></span>AImap() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fc1e9c4ce27b72d9ef9c88d259dfcd6">&#9670;&nbsp;</a></span>AImap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +197,7 @@ Public Attributes</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa55d01255b0dd7fa6c8caf9f8919ca39" name="aa55d01255b0dd7fa6c8caf9f8919ca39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa55d01255b0dd7fa6c8caf9f8919ca39">&#9670;&nbsp;</a></span>AccessibilityForCreature() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa55d01255b0dd7fa6c8caf9f8919ca39">&#9670;&nbsp;</a></span>AccessibilityForCreature()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,43 +208,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">float AImap.AccessibilityForCreature </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa55d01255b0dd7fa6c8caf9f8919ca39" name="aa55d01255b0dd7fa6c8caf9f8919ca39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa55d01255b0dd7fa6c8caf9f8919ca39">&#9670;&nbsp;</a></span>AccessibilityForCreature() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float AImap.AccessibilityForCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -375,7 +233,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac007b3e2f8dd6c27c321f825cf8dba7a" name="ac007b3e2f8dd6c27c321f825cf8dba7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac007b3e2f8dd6c27c321f825cf8dba7a">&#9670;&nbsp;</a></span>AnyExitReachableFromTile() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac007b3e2f8dd6c27c321f825cf8dba7a">&#9670;&nbsp;</a></span>AnyExitReachableFromTile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,43 +244,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool AImap.AnyExitReachableFromTile </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac007b3e2f8dd6c27c321f825cf8dba7a" name="ac007b3e2f8dd6c27c321f825cf8dba7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac007b3e2f8dd6c27c321f825cf8dba7a">&#9670;&nbsp;</a></span>AnyExitReachableFromTile() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.AnyExitReachableFromTile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -447,7 +269,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0ce1b349253b35d71680728d83e43af4" name="a0ce1b349253b35d71680728d83e43af4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ce1b349253b35d71680728d83e43af4">&#9670;&nbsp;</a></span>ClampedTileAccessibleToCreature() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ce1b349253b35d71680728d83e43af4">&#9670;&nbsp;</a></span>ClampedTileAccessibleToCreature()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -458,43 +280,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool AImap.ClampedTileAccessibleToCreature </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0ce1b349253b35d71680728d83e43af4" name="a0ce1b349253b35d71680728d83e43af4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ce1b349253b35d71680728d83e43af4">&#9670;&nbsp;</a></span>ClampedTileAccessibleToCreature() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.ClampedTileAccessibleToCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -519,43 +305,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a57949b7408cd5fba3ae7f02e62bd2bf1" name="a57949b7408cd5fba3ae7f02e62bd2bf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57949b7408cd5fba3ae7f02e62bd2bf1">&#9670;&nbsp;</a></span>ConnectionCostForCreature() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structPathCost.html">PathCost</a> AImap.ConnectionCostForCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMovementConnection.html">MovementConnection</a>&#160;</td>
-          <td class="paramname"><em>connection</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a57949b7408cd5fba3ae7f02e62bd2bf1" name="a57949b7408cd5fba3ae7f02e62bd2bf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57949b7408cd5fba3ae7f02e62bd2bf1">&#9670;&nbsp;</a></span>ConnectionCostForCreature() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a57949b7408cd5fba3ae7f02e62bd2bf1">&#9670;&nbsp;</a></span>ConnectionCostForCreature()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -591,33 +341,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a69a3c3134094a2b49f0522df037b8fac" name="a69a3c3134094a2b49f0522df037b8fac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69a3c3134094a2b49f0522df037b8fac">&#9670;&nbsp;</a></span>CreatureSpecificAImap() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classCreatureSpecificAImap.html">CreatureSpecificAImap</a> AImap.CreatureSpecificAImap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a69a3c3134094a2b49f0522df037b8fac" name="a69a3c3134094a2b49f0522df037b8fac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69a3c3134094a2b49f0522df037b8fac">&#9670;&nbsp;</a></span>CreatureSpecificAImap() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a3c3134094a2b49f0522df037b8fac">&#9670;&nbsp;</a></span>CreatureSpecificAImap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -643,7 +367,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a36c791865ec8c8e7eb820ef441701c23" name="a36c791865ec8c8e7eb820ef441701c23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36c791865ec8c8e7eb820ef441701c23">&#9670;&nbsp;</a></span>ExitDistanceForCreature() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36c791865ec8c8e7eb820ef441701c23">&#9670;&nbsp;</a></span>ExitDistanceForCreature() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -654,49 +378,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">int AImap.ExitDistanceForCreature </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>creatureSpecificExitIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a36c791865ec8c8e7eb820ef441701c23" name="a36c791865ec8c8e7eb820ef441701c23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36c791865ec8c8e7eb820ef441701c23">&#9670;&nbsp;</a></span>ExitDistanceForCreature() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int AImap.ExitDistanceForCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -727,49 +409,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aadfc98547ae11cadd87482d4382b751b" name="aadfc98547ae11cadd87482d4382b751b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadfc98547ae11cadd87482d4382b751b">&#9670;&nbsp;</a></span>ExitDistanceForCreature() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int AImap.ExitDistanceForCreature </td>
-          <td>(</td>
-          <td class="paramtype">Vector2&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>exitNumber</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aadfc98547ae11cadd87482d4382b751b" name="aadfc98547ae11cadd87482d4382b751b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadfc98547ae11cadd87482d4382b751b">&#9670;&nbsp;</a></span>ExitDistanceForCreature() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aadfc98547ae11cadd87482d4382b751b">&#9670;&nbsp;</a></span>ExitDistanceForCreature() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -811,7 +451,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7b7db6322bb8fdeb3724f3b460f65e9e" name="a7b7db6322bb8fdeb3724f3b460f65e9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b7db6322bb8fdeb3724f3b460f65e9e">&#9670;&nbsp;</a></span>ExitDistanceForCreatureAndCheckNeighbours() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b7db6322bb8fdeb3724f3b460f65e9e">&#9670;&nbsp;</a></span>ExitDistanceForCreatureAndCheckNeighbours()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -822,49 +462,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">int AImap.ExitDistanceForCreatureAndCheckNeighbours </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>creatureSpecificExitIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7b7db6322bb8fdeb3724f3b460f65e9e" name="a7b7db6322bb8fdeb3724f3b460f65e9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b7db6322bb8fdeb3724f3b460f65e9e">&#9670;&nbsp;</a></span>ExitDistanceForCreatureAndCheckNeighbours() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int AImap.ExitDistanceForCreatureAndCheckNeighbours </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -895,7 +493,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aadea9a55570b2adc86dc62f026a06c8d" name="aadea9a55570b2adc86dc62f026a06c8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadea9a55570b2adc86dc62f026a06c8d">&#9670;&nbsp;</a></span>ExitReachableFromTile() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aadea9a55570b2adc86dc62f026a06c8d">&#9670;&nbsp;</a></span>ExitReachableFromTile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -906,49 +504,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool AImap.ExitReachableFromTile </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>globalNodeIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aadea9a55570b2adc86dc62f026a06c8d" name="aadea9a55570b2adc86dc62f026a06c8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadea9a55570b2adc86dc62f026a06c8d">&#9670;&nbsp;</a></span>ExitReachableFromTile() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.ExitReachableFromTile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -979,43 +535,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a44a4cd202efaad73ff28e14aa6b2948b" name="a44a4cd202efaad73ff28e14aa6b2948b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44a4cd202efaad73ff28e14aa6b2948b">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[1/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classAItile.html">AItile</a> AImap.getAItile </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a44a4cd202efaad73ff28e14aa6b2948b" name="a44a4cd202efaad73ff28e14aa6b2948b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44a4cd202efaad73ff28e14aa6b2948b">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a44a4cd202efaad73ff28e14aa6b2948b">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1051,7 +571,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad56fd13eea2ff433a3e8f49c58cf1227" name="ad56fd13eea2ff433a3e8f49c58cf1227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad56fd13eea2ff433a3e8f49c58cf1227">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad56fd13eea2ff433a3e8f49c58cf1227">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1062,33 +582,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classAItile.html">AItile</a> AImap.getAItile </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad56fd13eea2ff433a3e8f49c58cf1227" name="ad56fd13eea2ff433a3e8f49c58cf1227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad56fd13eea2ff433a3e8f49c58cf1227">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[4/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classAItile.html">AItile</a> AImap.getAItile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1103,33 +597,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7f3f85baf62122307f029f83778e159b" name="a7f3f85baf62122307f029f83778e159b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f3f85baf62122307f029f83778e159b">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[5/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classAItile.html">AItile</a> AImap.getAItile </td>
-          <td>(</td>
-          <td class="paramtype">Vector2&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7f3f85baf62122307f029f83778e159b" name="a7f3f85baf62122307f029f83778e159b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f3f85baf62122307f029f83778e159b">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f3f85baf62122307f029f83778e159b">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1155,33 +623,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abd13794e2be4dc1fe00a61b545bd2086" name="abd13794e2be4dc1fe00a61b545bd2086"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd13794e2be4dc1fe00a61b545bd2086">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[7/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classAItile.html">AItile</a> AImap.getAItile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abd13794e2be4dc1fe00a61b545bd2086" name="abd13794e2be4dc1fe00a61b545bd2086"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd13794e2be4dc1fe00a61b545bd2086">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd13794e2be4dc1fe00a61b545bd2086">&#9670;&nbsp;</a></span>getAItile() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1207,43 +649,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a06e1760af24708c9b2a00792da5ab11c" name="a06e1760af24708c9b2a00792da5ab11c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06e1760af24708c9b2a00792da5ab11c">&#9670;&nbsp;</a></span>getClampedAItile() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classAItile.html">AItile</a> AImap.getClampedAItile </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a06e1760af24708c9b2a00792da5ab11c" name="a06e1760af24708c9b2a00792da5ab11c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06e1760af24708c9b2a00792da5ab11c">&#9670;&nbsp;</a></span>getClampedAItile() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a06e1760af24708c9b2a00792da5ab11c">&#9670;&nbsp;</a></span>getClampedAItile() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1279,33 +685,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad8e4141789f4ab215f531694c8964640" name="ad8e4141789f4ab215f531694c8964640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8e4141789f4ab215f531694c8964640">&#9670;&nbsp;</a></span>getClampedAItile() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classAItile.html">AItile</a> AImap.getClampedAItile </td>
-          <td>(</td>
-          <td class="paramtype">Vector2&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad8e4141789f4ab215f531694c8964640" name="ad8e4141789f4ab215f531694c8964640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8e4141789f4ab215f531694c8964640">&#9670;&nbsp;</a></span>getClampedAItile() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8e4141789f4ab215f531694c8964640">&#9670;&nbsp;</a></span>getClampedAItile() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1331,32 +711,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="abd1078269a844948a9de5d3fdf799ce0" name="abd1078269a844948a9de5d3fdf799ce0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd1078269a844948a9de5d3fdf799ce0">&#9670;&nbsp;</a></span>GetCompressedVisibilityMap() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int[] AImap.GetCompressedVisibilityMap </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abd1078269a844948a9de5d3fdf799ce0" name="abd1078269a844948a9de5d3fdf799ce0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd1078269a844948a9de5d3fdf799ce0">&#9670;&nbsp;</a></span>GetCompressedVisibilityMap() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd1078269a844948a9de5d3fdf799ce0">&#9670;&nbsp;</a></span>GetCompressedVisibilityMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1381,43 +736,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ae80e9eaeca569588645d21a8b32faea4" name="ae80e9eaeca569588645d21a8b32faea4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae80e9eaeca569588645d21a8b32faea4">&#9670;&nbsp;</a></span>IsConnectionAllowedForCreature() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.IsConnectionAllowedForCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMovementConnection.html">MovementConnection</a>&#160;</td>
-          <td class="paramname"><em>connection</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae80e9eaeca569588645d21a8b32faea4" name="ae80e9eaeca569588645d21a8b32faea4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae80e9eaeca569588645d21a8b32faea4">&#9670;&nbsp;</a></span>IsConnectionAllowedForCreature() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae80e9eaeca569588645d21a8b32faea4">&#9670;&nbsp;</a></span>IsConnectionAllowedForCreature()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1453,33 +772,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a50b589e42622ddbac5dd65f60bd2f761" name="a50b589e42622ddbac5dd65f60bd2f761"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50b589e42622ddbac5dd65f60bd2f761">&#9670;&nbsp;</a></span>NewWorld() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AImap.NewWorld </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newRoomIndex</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50b589e42622ddbac5dd65f60bd2f761" name="a50b589e42622ddbac5dd65f60bd2f761"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50b589e42622ddbac5dd65f60bd2f761">&#9670;&nbsp;</a></span>NewWorld() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a50b589e42622ddbac5dd65f60bd2f761">&#9670;&nbsp;</a></span>NewWorld()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1505,33 +798,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a2d3f6ca5d7f607e1442658f7a8c1d171" name="a2d3f6ca5d7f607e1442658f7a8c1d171"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d3f6ca5d7f607e1442658f7a8c1d171">&#9670;&nbsp;</a></span>SetVisibilityMapFromCompressedArray() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AImap.SetVisibilityMapFromCompressedArray </td>
-          <td>(</td>
-          <td class="paramtype">int[]&#160;</td>
-          <td class="paramname"><em>ca</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d3f6ca5d7f607e1442658f7a8c1d171" name="a2d3f6ca5d7f607e1442658f7a8c1d171"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d3f6ca5d7f607e1442658f7a8c1d171">&#9670;&nbsp;</a></span>SetVisibilityMapFromCompressedArray() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d3f6ca5d7f607e1442658f7a8c1d171">&#9670;&nbsp;</a></span>SetVisibilityMapFromCompressedArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1557,49 +824,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0892d03e6d02418a942ffdb5a10f7af6" name="a0892d03e6d02418a942ffdb5a10f7af6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0892d03e6d02418a942ffdb5a10f7af6">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[1/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.TileAccessibleToCreature </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0892d03e6d02418a942ffdb5a10f7af6" name="a0892d03e6d02418a942ffdb5a10f7af6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0892d03e6d02418a942ffdb5a10f7af6">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0892d03e6d02418a942ffdb5a10f7af6">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1641,7 +866,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a26e150b995e39e0db0908e17d9927222" name="a26e150b995e39e0db0908e17d9927222"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26e150b995e39e0db0908e17d9927222">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e150b995e39e0db0908e17d9927222">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1652,43 +877,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool AImap.TileAccessibleToCreature </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a26e150b995e39e0db0908e17d9927222" name="a26e150b995e39e0db0908e17d9927222"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26e150b995e39e0db0908e17d9927222">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.TileAccessibleToCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -1713,43 +902,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a61020c0804a6c3fe334f2e0b86f53db9" name="a61020c0804a6c3fe334f2e0b86f53db9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61020c0804a6c3fe334f2e0b86f53db9">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.TileAccessibleToCreature </td>
-          <td>(</td>
-          <td class="paramtype">Vector2&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a61020c0804a6c3fe334f2e0b86f53db9" name="a61020c0804a6c3fe334f2e0b86f53db9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61020c0804a6c3fe334f2e0b86f53db9">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61020c0804a6c3fe334f2e0b86f53db9">&#9670;&nbsp;</a></span>TileAccessibleToCreature() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1785,49 +938,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ad573584d1349116d63774a6c5c5b1cf4" name="ad573584d1349116d63774a6c5c5b1cf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad573584d1349116d63774a6c5c5b1cf4">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[1/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structPathCost.html">PathCost</a> AImap.TileCostForCreature </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad573584d1349116d63774a6c5c5b1cf4" name="ad573584d1349116d63774a6c5c5b1cf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad573584d1349116d63774a6c5c5b1cf4">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad573584d1349116d63774a6c5c5b1cf4">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1869,7 +980,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8fd37a8b4a66c98fab6d4ecd89262d2b" name="a8fd37a8b4a66c98fab6d4ecd89262d2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fd37a8b4a66c98fab6d4ecd89262d2b">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fd37a8b4a66c98fab6d4ecd89262d2b">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1880,43 +991,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structPathCost.html">PathCost</a> AImap.TileCostForCreature </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8fd37a8b4a66c98fab6d4ecd89262d2b" name="a8fd37a8b4a66c98fab6d4ecd89262d2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fd37a8b4a66c98fab6d4ecd89262d2b">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structPathCost.html">PathCost</a> AImap.TileCostForCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -1941,43 +1016,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a92fcc759de8276d7f29838de6c9480ab" name="a92fcc759de8276d7f29838de6c9480ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92fcc759de8276d7f29838de6c9480ab">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structPathCost.html">PathCost</a> AImap.TileCostForCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a92fcc759de8276d7f29838de6c9480ab" name="a92fcc759de8276d7f29838de6c9480ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92fcc759de8276d7f29838de6c9480ab">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a92fcc759de8276d7f29838de6c9480ab">&#9670;&nbsp;</a></span>TileCostForCreature() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2013,7 +1052,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a54f8d090753026bc1f5e6a9de28fb8f1" name="a54f8d090753026bc1f5e6a9de28fb8f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f8d090753026bc1f5e6a9de28fb8f1">&#9670;&nbsp;</a></span>TileOrNeighborsAccessibleToCreature() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54f8d090753026bc1f5e6a9de28fb8f1">&#9670;&nbsp;</a></span>TileOrNeighborsAccessibleToCreature()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2024,43 +1063,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool AImap.TileOrNeighborsAccessibleToCreature </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54f8d090753026bc1f5e6a9de28fb8f1" name="a54f8d090753026bc1f5e6a9de28fb8f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f8d090753026bc1f5e6a9de28fb8f1">&#9670;&nbsp;</a></span>TileOrNeighborsAccessibleToCreature() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.TileOrNeighborsAccessibleToCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -2085,7 +1088,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a03119422a823b616976c802660f22cd8" name="a03119422a823b616976c802660f22cd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03119422a823b616976c802660f22cd8">&#9670;&nbsp;</a></span>TriangulateDistance() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03119422a823b616976c802660f22cd8">&#9670;&nbsp;</a></span>TriangulateDistance() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2096,55 +1099,13 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">int AImap.TriangulateDistance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03119422a823b616976c802660f22cd8" name="a03119422a823b616976c802660f22cd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03119422a823b616976c802660f22cd8">&#9670;&nbsp;</a></span>TriangulateDistance() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int AImap.TriangulateDistance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
@@ -2169,49 +1130,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a17243fa94efdc328bee33e639e5a3567" name="a17243fa94efdc328bee33e639e5a3567"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17243fa94efdc328bee33e639e5a3567">&#9670;&nbsp;</a></span>TriangulateDistance() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int AImap.TriangulateDistance </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a17243fa94efdc328bee33e639e5a3567" name="a17243fa94efdc328bee33e639e5a3567"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17243fa94efdc328bee33e639e5a3567">&#9670;&nbsp;</a></span>TriangulateDistance() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a17243fa94efdc328bee33e639e5a3567">&#9670;&nbsp;</a></span>TriangulateDistance() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2253,7 +1172,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a36fc8b1d446fe2b7c021924ea3abd8b3" name="a36fc8b1d446fe2b7c021924ea3abd8b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36fc8b1d446fe2b7c021924ea3abd8b3">&#9670;&nbsp;</a></span>TryForAccessibleNeighbor() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36fc8b1d446fe2b7c021924ea3abd8b3">&#9670;&nbsp;</a></span>TryForAccessibleNeighbor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2262,45 +1181,9 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> AImap.TryForAccessibleNeighbor </td>
+          <td class="memname">IntVector2 AImap.TryForAccessibleNeighbor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>tile</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a36fc8b1d446fe2b7c021924ea3abd8b3" name="a36fc8b1d446fe2b7c021924ea3abd8b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36fc8b1d446fe2b7c021924ea3abd8b3">&#9670;&nbsp;</a></span>TryForAccessibleNeighbor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a> AImap.TryForAccessibleNeighbor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>tile</em>, </td>
         </tr>
         <tr>
@@ -2325,7 +1208,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a597ef4889a0b770b62f6a5b170f6bb4d" name="a597ef4889a0b770b62f6a5b170f6bb4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a597ef4889a0b770b62f6a5b170f6bb4d">&#9670;&nbsp;</a></span>Visibility() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a597ef4889a0b770b62f6a5b170f6bb4d">&#9670;&nbsp;</a></span>Visibility()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2336,33 +1219,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">float AImap.Visibility </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a597ef4889a0b770b62f6a5b170f6bb4d" name="a597ef4889a0b770b62f6a5b170f6bb4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a597ef4889a0b770b62f6a5b170f6bb4d">&#9670;&nbsp;</a></span>Visibility() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float AImap.Visibility </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRWCustom_1_1IntVector2.html">IntVector2</a>&#160;</td>
+          <td class="paramtype">IntVector2&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2377,43 +1234,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aad45b81349c3659a4d30a71449d408ea" name="aad45b81349c3659a4d30a71449d408ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad45b81349c3659a4d30a71449d408ea">&#9670;&nbsp;</a></span>WorldCoordinateAccessibleToCreature() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AImap.WorldCoordinateAccessibleToCreature </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structWorldCoordinate.html">WorldCoordinate</a>&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classCreatureTemplate.html">CreatureTemplate</a>&#160;</td>
-          <td class="paramname"><em>crit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad45b81349c3659a4d30a71449d408ea" name="aad45b81349c3659a4d30a71449d408ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad45b81349c3659a4d30a71449d408ea">&#9670;&nbsp;</a></span>WorldCoordinateAccessibleToCreature() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad45b81349c3659a4d30a71449d408ea">&#9670;&nbsp;</a></span>WorldCoordinateAccessibleToCreature()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2463,8 +1284,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad6fb6c31c19beb79926163e9ba534503" name="ad6fb6c31c19beb79926163e9ba534503"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6fb6c31c19beb79926163e9ba534503">&#9670;&nbsp;</a></span>height</h2>
+<a id="acd43782ef897c2378f58c349046f1cfd" name="acd43782ef897c2378f58c349046f1cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd43782ef897c2378f58c349046f1cfd">&#9670;&nbsp;</a></span>height</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2491,8 +1312,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c664d445f8e2de3b88dfbcdf9aebfd6" name="a8c664d445f8e2de3b88dfbcdf9aebfd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c664d445f8e2de3b88dfbcdf9aebfd6">&#9670;&nbsp;</a></span>room</h2>
+<a id="af4b7140ad213c58b346a848d5694061a" name="af4b7140ad213c58b346a848d5694061a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4b7140ad213c58b346a848d5694061a">&#9670;&nbsp;</a></span>room</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2505,8 +1326,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0676c30bff87f71f50f4d7d1528fbae7" name="a0676c30bff87f71f50f4d7d1528fbae7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0676c30bff87f71f50f4d7d1528fbae7">&#9670;&nbsp;</a></span>standardTile</h2>
+<a id="a82f55f2914143cc56a1f80f756843450" name="a82f55f2914143cc56a1f80f756843450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82f55f2914143cc56a1f80f756843450">&#9670;&nbsp;</a></span>standardTile</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2519,8 +1340,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c340ce496fde55ba044c017c5561b19" name="a9c340ce496fde55ba044c017c5561b19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c340ce496fde55ba044c017c5561b19">&#9670;&nbsp;</a></span>width</h2>
+<a id="a3cd6c53e4671bfea5b4914a684805bcf" name="a3cd6c53e4671bfea5b4914a684805bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd6c53e4671bfea5b4914a684805bcf">&#9670;&nbsp;</a></span>width</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2533,9 +1354,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>decompiled/<a class="el" href="AImap_8cs.html">AImap.cs</a></li>
-<li>decompiled/<a class="el" href="Assembly-CSharp_8cs.html">Assembly-CSharp.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -30,6 +30,5 @@ var searchData=
   ['arenagamesession_2ecs_27',['ArenaGameSession.cs',['../ArenaGameSession_8cs.html',1,'']]],
   ['arenasetup_2ecs_28',['ArenaSetup.cs',['../ArenaSetup_8cs.html',1,'']]],
   ['arenasitting_2ecs_29',['ArenaSitting.cs',['../ArenaSitting_8cs.html',1,'']]],
-  ['artificialintelligence_2ecs_30',['ArtificialIntelligence.cs',['../ArtificialIntelligence_8cs.html',1,'']]],
-  ['assembly_2dcsharp_2ecs_31',['Assembly-CSharp.cs',['../Assembly-CSharp_8cs.html',1,'']]]
+  ['artificialintelligence_2ecs_30',['ArtificialIntelligence.cs',['../ArtificialIntelligence_8cs.html',1,'']]]
 ];

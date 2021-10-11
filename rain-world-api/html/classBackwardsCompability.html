@@ -88,16 +88,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a39339aed9b91d1ed8ccfa53b5055b0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa51cc6584b20adcb18f855ac380de1ee"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#aa51cc6584b20adcb18f855ac380de1ee">UpdateWorldVersionOfDeathPersistentData</a> (ref <a class="el" href="classDeathPersistentSaveData.html">DeathPersistentSaveData</a> dpDt, int oldWorldVersion, int newWorldVersion, ref List&lt; int &gt; roomIndexMap)</td></tr>
 <tr class="separator:aa51cc6584b20adcb18f855ac380de1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf16fd0c04cf30059d82b04ff3c7f5a6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#adf16fd0c04cf30059d82b04ff3c7f5a6">IndexMapWorld</a> (int worldVersion, <a class="el" href="classPlayerProgression.html">PlayerProgression</a> prog)</td></tr>
-<tr class="separator:adf16fd0c04cf30059d82b04ff3c7f5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d1af691c37717f45424614ce74d01b7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a5d1af691c37717f45424614ce74d01b7">UpdateWorldVersion</a> (<a class="el" href="classSaveState.html">SaveState</a> saveState, int newWorldVersion, <a class="el" href="classPlayerProgression.html">PlayerProgression</a> prog)</td></tr>
-<tr class="separator:a5d1af691c37717f45424614ce74d01b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a721c6a0e7e858daf00a014a37a1775c3"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a721c6a0e7e858daf00a014a37a1775c3">UpdateRegionStateString</a> (int regionIndex, string regionState, ref List&lt; int &gt; roomIndexMap, ref <a class="el" href="classBackwardsCompability_1_1SpawnerMap.html">SpawnerMap</a> spawnerMap, ref int[,] oldRegionRooms, ref int[,] newRegionRooms)</td></tr>
-<tr class="separator:a721c6a0e7e858daf00a014a37a1775c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39339aed9b91d1ed8ccfa53b5055b0ac"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a39339aed9b91d1ed8ccfa53b5055b0ac">MapRoom</a> (int oldRoom, ref List&lt; int &gt; roomIndexMap)</td></tr>
-<tr class="separator:a39339aed9b91d1ed8ccfa53b5055b0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa51cc6584b20adcb18f855ac380de1ee"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#aa51cc6584b20adcb18f855ac380de1ee">UpdateWorldVersionOfDeathPersistentData</a> (ref <a class="el" href="classDeathPersistentSaveData.html">DeathPersistentSaveData</a> dpDt, int oldWorldVersion, int newWorldVersion, ref List&lt; int &gt; roomIndexMap)</td></tr>
-<tr class="separator:aa51cc6584b20adcb18f855ac380de1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -115,60 +105,10 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:a2f15ea23a6138a2946422e4be57cb090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45bf54614ef5880296bd72f0c407419a"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a45bf54614ef5880296bd72f0c407419a">MigrateObjects</a> (string objectsString, ref List&lt; int &gt; roomIndexMap)</td></tr>
 <tr class="separator:a45bf54614ef5880296bd72f0c407419a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1451c3eaccbcb2256f16c984165f9dd"><td class="memItemLeft" align="right" valign="top">static int[,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#ab1451c3eaccbcb2256f16c984165f9dd">LoadRegionRooms</a> (int worldVersion)</td></tr>
-<tr class="separator:ab1451c3eaccbcb2256f16c984165f9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3553e3dae4ddaaed9248d6c0726fce54"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a3553e3dae4ddaaed9248d6c0726fce54">MigrateRoomsVisited</a> (int region, string str, ref List&lt; int &gt; roomIndexMap, ref int[,] oldRegionRooms, ref int[,] newRegionRooms)</td></tr>
-<tr class="separator:a3553e3dae4ddaaed9248d6c0726fce54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa5794602700327fc0c897f9ac7ec3e8"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#aaa5794602700327fc0c897f9ac7ec3e8">MigrateLineages</a> (int region, string lineagesString, ref <a class="el" href="classBackwardsCompability_1_1SpawnerMap.html">SpawnerMap</a> spawnerMap)</td></tr>
-<tr class="separator:aaa5794602700327fc0c897f9ac7ec3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07e1d1cf62bdfeecc7923e73eabf9f31"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a07e1d1cf62bdfeecc7923e73eabf9f31">MigrateConsumedItems</a> (string itemsString, ref List&lt; int &gt; roomIndexMap)</td></tr>
-<tr class="separator:a07e1d1cf62bdfeecc7923e73eabf9f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98f860c9ef81d759f8222e5c5213273f"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a98f860c9ef81d759f8222e5c5213273f">MigrateLineages</a> (string lineagesString, ref <a class="el" href="classBackwardsCompability_1_1SpawnerMap.html">SpawnerMap</a> spawnerMap)</td></tr>
-<tr class="separator:a98f860c9ef81d759f8222e5c5213273f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f15ea23a6138a2946422e4be57cb090"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a2f15ea23a6138a2946422e4be57cb090">MigrateCreatures</a> (string creaturesString, ref List&lt; int &gt; roomIndexMap, ref <a class="el" href="classBackwardsCompability_1_1SpawnerMap.html">SpawnerMap</a> spawnerMap)</td></tr>
-<tr class="separator:a2f15ea23a6138a2946422e4be57cb090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45bf54614ef5880296bd72f0c407419a"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBackwardsCompability.html#a45bf54614ef5880296bd72f0c407419a">MigrateObjects</a> (string objectsString, ref List&lt; int &gt; roomIndexMap)</td></tr>
-<tr class="separator:a45bf54614ef5880296bd72f0c407419a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="adf16fd0c04cf30059d82b04ff3c7f5a6" name="adf16fd0c04cf30059d82b04ff3c7f5a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf16fd0c04cf30059d82b04ff3c7f5a6">&#9670;&nbsp;</a></span>IndexMapWorld() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void BackwardsCompability.IndexMapWorld </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>worldVersion</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classPlayerProgression.html">PlayerProgression</a>&#160;</td>
-          <td class="paramname"><em>prog</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adf16fd0c04cf30059d82b04ff3c7f5a6" name="adf16fd0c04cf30059d82b04ff3c7f5a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf16fd0c04cf30059d82b04ff3c7f5a6">&#9670;&nbsp;</a></span>IndexMapWorld() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adf16fd0c04cf30059d82b04ff3c7f5a6">&#9670;&nbsp;</a></span>IndexMapWorld()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,33 +144,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ab1451c3eaccbcb2256f16c984165f9dd" name="ab1451c3eaccbcb2256f16c984165f9dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1451c3eaccbcb2256f16c984165f9dd">&#9670;&nbsp;</a></span>LoadRegionRooms() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int[,] BackwardsCompability.LoadRegionRooms </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>worldVersion</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab1451c3eaccbcb2256f16c984165f9dd" name="ab1451c3eaccbcb2256f16c984165f9dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1451c3eaccbcb2256f16c984165f9dd">&#9670;&nbsp;</a></span>LoadRegionRooms() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1451c3eaccbcb2256f16c984165f9dd">&#9670;&nbsp;</a></span>LoadRegionRooms()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,43 +170,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a39339aed9b91d1ed8ccfa53b5055b0ac" name="a39339aed9b91d1ed8ccfa53b5055b0ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39339aed9b91d1ed8ccfa53b5055b0ac">&#9670;&nbsp;</a></span>MapRoom() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int BackwardsCompability.MapRoom </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>oldRoom</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>roomIndexMap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a39339aed9b91d1ed8ccfa53b5055b0ac" name="a39339aed9b91d1ed8ccfa53b5055b0ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39339aed9b91d1ed8ccfa53b5055b0ac">&#9670;&nbsp;</a></span>MapRoom() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a39339aed9b91d1ed8ccfa53b5055b0ac">&#9670;&nbsp;</a></span>MapRoom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,43 +206,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a07e1d1cf62bdfeecc7923e73eabf9f31" name="a07e1d1cf62bdfeecc7923e73eabf9f31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07e1d1cf62bdfeecc7923e73eabf9f31">&#9670;&nbsp;</a></span>MigrateConsumedItems() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string BackwardsCompability.MigrateConsumedItems </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>itemsString</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>roomIndexMap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a07e1d1cf62bdfeecc7923e73eabf9f31" name="a07e1d1cf62bdfeecc7923e73eabf9f31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07e1d1cf62bdfeecc7923e73eabf9f31">&#9670;&nbsp;</a></span>MigrateConsumedItems() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e1d1cf62bdfeecc7923e73eabf9f31">&#9670;&nbsp;</a></span>MigrateConsumedItems()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -400,49 +242,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a2f15ea23a6138a2946422e4be57cb090" name="a2f15ea23a6138a2946422e4be57cb090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f15ea23a6138a2946422e4be57cb090">&#9670;&nbsp;</a></span>MigrateCreatures() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string BackwardsCompability.MigrateCreatures </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>creaturesString</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>roomIndexMap</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref <a class="el" href="classBackwardsCompability_1_1SpawnerMap.html">SpawnerMap</a>&#160;</td>
-          <td class="paramname"><em>spawnerMap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2f15ea23a6138a2946422e4be57cb090" name="a2f15ea23a6138a2946422e4be57cb090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f15ea23a6138a2946422e4be57cb090">&#9670;&nbsp;</a></span>MigrateCreatures() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f15ea23a6138a2946422e4be57cb090">&#9670;&nbsp;</a></span>MigrateCreatures()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,49 +284,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aaa5794602700327fc0c897f9ac7ec3e8" name="aaa5794602700327fc0c897f9ac7ec3e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa5794602700327fc0c897f9ac7ec3e8">&#9670;&nbsp;</a></span>MigrateLineages() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string BackwardsCompability.MigrateLineages </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>region</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>lineagesString</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref <a class="el" href="classBackwardsCompability_1_1SpawnerMap.html">SpawnerMap</a>&#160;</td>
-          <td class="paramname"><em>spawnerMap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaa5794602700327fc0c897f9ac7ec3e8" name="aaa5794602700327fc0c897f9ac7ec3e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa5794602700327fc0c897f9ac7ec3e8">&#9670;&nbsp;</a></span>MigrateLineages() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa5794602700327fc0c897f9ac7ec3e8">&#9670;&nbsp;</a></span>MigrateLineages() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -568,43 +326,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a98f860c9ef81d759f8222e5c5213273f" name="a98f860c9ef81d759f8222e5c5213273f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98f860c9ef81d759f8222e5c5213273f">&#9670;&nbsp;</a></span>MigrateLineages() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string BackwardsCompability.MigrateLineages </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>lineagesString</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref <a class="el" href="classBackwardsCompability_1_1SpawnerMap.html">SpawnerMap</a>&#160;</td>
-          <td class="paramname"><em>spawnerMap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a98f860c9ef81d759f8222e5c5213273f" name="a98f860c9ef81d759f8222e5c5213273f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98f860c9ef81d759f8222e5c5213273f">&#9670;&nbsp;</a></span>MigrateLineages() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f860c9ef81d759f8222e5c5213273f">&#9670;&nbsp;</a></span>MigrateLineages() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -640,43 +362,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a45bf54614ef5880296bd72f0c407419a" name="a45bf54614ef5880296bd72f0c407419a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45bf54614ef5880296bd72f0c407419a">&#9670;&nbsp;</a></span>MigrateObjects() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string BackwardsCompability.MigrateObjects </td>
-          <td>(</td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>objectsString</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>roomIndexMap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a45bf54614ef5880296bd72f0c407419a" name="a45bf54614ef5880296bd72f0c407419a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45bf54614ef5880296bd72f0c407419a">&#9670;&nbsp;</a></span>MigrateObjects() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a45bf54614ef5880296bd72f0c407419a">&#9670;&nbsp;</a></span>MigrateObjects()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -712,61 +398,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a3553e3dae4ddaaed9248d6c0726fce54" name="a3553e3dae4ddaaed9248d6c0726fce54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3553e3dae4ddaaed9248d6c0726fce54">&#9670;&nbsp;</a></span>MigrateRoomsVisited() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string BackwardsCompability.MigrateRoomsVisited </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>region</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>roomIndexMap</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref int&#160;</td>
-          <td class="paramname"><em>oldRegionRooms</em>[,], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref int&#160;</td>
-          <td class="paramname"><em>newRegionRooms</em>[,]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3553e3dae4ddaaed9248d6c0726fce54" name="a3553e3dae4ddaaed9248d6c0726fce54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3553e3dae4ddaaed9248d6c0726fce54">&#9670;&nbsp;</a></span>MigrateRoomsVisited() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3553e3dae4ddaaed9248d6c0726fce54">&#9670;&nbsp;</a></span>MigrateRoomsVisited()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -820,67 +452,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a721c6a0e7e858daf00a014a37a1775c3" name="a721c6a0e7e858daf00a014a37a1775c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a721c6a0e7e858daf00a014a37a1775c3">&#9670;&nbsp;</a></span>UpdateRegionStateString() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static string BackwardsCompability.UpdateRegionStateString </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>regionIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>regionState</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>roomIndexMap</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref <a class="el" href="classBackwardsCompability_1_1SpawnerMap.html">SpawnerMap</a>&#160;</td>
-          <td class="paramname"><em>spawnerMap</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref int&#160;</td>
-          <td class="paramname"><em>oldRegionRooms</em>[,], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref int&#160;</td>
-          <td class="paramname"><em>newRegionRooms</em>[,]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a721c6a0e7e858daf00a014a37a1775c3" name="a721c6a0e7e858daf00a014a37a1775c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a721c6a0e7e858daf00a014a37a1775c3">&#9670;&nbsp;</a></span>UpdateRegionStateString() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a721c6a0e7e858daf00a014a37a1775c3">&#9670;&nbsp;</a></span>UpdateRegionStateString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -940,49 +512,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a5d1af691c37717f45424614ce74d01b7" name="a5d1af691c37717f45424614ce74d01b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d1af691c37717f45424614ce74d01b7">&#9670;&nbsp;</a></span>UpdateWorldVersion() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void BackwardsCompability.UpdateWorldVersion </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSaveState.html">SaveState</a>&#160;</td>
-          <td class="paramname"><em>saveState</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newWorldVersion</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classPlayerProgression.html">PlayerProgression</a>&#160;</td>
-          <td class="paramname"><em>prog</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5d1af691c37717f45424614ce74d01b7" name="a5d1af691c37717f45424614ce74d01b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d1af691c37717f45424614ce74d01b7">&#9670;&nbsp;</a></span>UpdateWorldVersion() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1af691c37717f45424614ce74d01b7">&#9670;&nbsp;</a></span>UpdateWorldVersion()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1024,7 +554,7 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aa51cc6584b20adcb18f855ac380de1ee" name="aa51cc6584b20adcb18f855ac380de1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa51cc6584b20adcb18f855ac380de1ee">&#9670;&nbsp;</a></span>UpdateWorldVersionOfDeathPersistentData() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa51cc6584b20adcb18f855ac380de1ee">&#9670;&nbsp;</a></span>UpdateWorldVersionOfDeathPersistentData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1071,56 +601,7 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa51cc6584b20adcb18f855ac380de1ee" name="aa51cc6584b20adcb18f855ac380de1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa51cc6584b20adcb18f855ac380de1ee">&#9670;&nbsp;</a></span>UpdateWorldVersionOfDeathPersistentData() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void BackwardsCompability.UpdateWorldVersionOfDeathPersistentData </td>
-          <td>(</td>
-          <td class="paramtype">ref <a class="el" href="classDeathPersistentSaveData.html">DeathPersistentSaveData</a>&#160;</td>
-          <td class="paramname"><em>dpDt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>oldWorldVersion</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>newWorldVersion</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref List&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>roomIndexMap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>decompiled/<a class="el" href="Assembly-CSharp_8cs.html">Assembly-CSharp.cs</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>decompiled/<a class="el" href="BackwardsCompability_8cs.html">BackwardsCompability.cs</a></li>
 </ul>
 </div><!-- contents -->
