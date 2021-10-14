@@ -214,7 +214,29 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a995a52f42df499ae6ecb78dd68627d6f"><td class="memItemLeft" align="right" valign="top">Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRainWorld.html#a995a52f42df499ae6ecb78dd68627d6f">sootMark2</a></td></tr>
 <tr class="separator:a995a52f42df499ae6ecb78dd68627d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >The singleton that represents the entire game. What it subclasses, MonoBehaviour, is from the Unity engine; this is a variety of GameObject, which is the first object created when a Unity game boots up. It is this object, and this object only for Rain <a class="el" href="classWorld.html">World</a>, that can actually call Unity routines, or interact with Unity in any way. By its nature, it is also the head of the call stack that leads to the update loop that provides for actual gameplay. The full tree initializations is:</p><ul>
+<li><a class="el" href="classRainWorld.html">RainWorld</a> (singleton initialized by Unity engine)<ul>
+<li><a class="el" href="classProcessManager.html">ProcessManager</a> (singleton initialized by <a class="el" href="classRainWorld.html#aab1b388e532d43909e43a492ccabe4c1">RainWorld.Update</a>)<ul>
+<li><a class="el" href="classRainWorldGame.html">RainWorldGame</a> (singleton initialized by <a class="el" href="classProcessManager.html#a5e2541ebf71b6b304b1126514787e957">ProcessManager.SwitchMainProcess</a> every cycle)<ul>
+<li><a class="el" href="classOverWorld.html">OverWorld</a><ul>
+<li><a class="el" href="classAbstractRoom.html">AbstractRoom</a> (initialized by <a class="el" href="classOverWorld.html#a70e7e8e1c09f1878ecfec9f52ca71460">OverWorld.WorldLoaded</a>)<ul>
+<li><a class="el" href="classRoom.html">Room</a></li>
+</ul>
+</li>
+<li><a class="el" href="classWorld.html">World</a> (initialized by <a class="el" href="classOverWorld.html#a70e7e8e1c09f1878ecfec9f52ca71460">OverWorld.WorldLoaded</a>)</li>
+</ul>
+</li>
+<li><a class="el" href="classPlayer.html">Player</a></li>
+<li><a class="el" href="classRoomCamera.html">RoomCamera</a> (TODO: finish this call stack with descriptions, then do update stack) </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="af3b1430f8fb83f2926ed6ec20b4bed27" name="af3b1430f8fb83f2926ed6ec20b4bed27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3b1430f8fb83f2926ed6ec20b4bed27">&#9670;&nbsp;</a></span>AchievementID</h2>
 
