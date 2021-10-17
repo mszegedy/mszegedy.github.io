@@ -215,7 +215,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a995a52f42df499ae6ecb78dd68627d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The singleton that represents the entire game. What it subclasses, MonoBehaviour, is from the Unity engine; this is a variety of GameObject, which is the first object created when a Unity game boots up. It is this object, and this object only for Rain <a class="el" href="classWorld.html">World</a>, that can actually call Unity routines, or interact with Unity in any way. By its nature, it is also the head of the call stack that leads to the update loop that provides for actual gameplay. The full tree initializations is:</p><ul>
+<div class="textblock"><p >The singleton that represents the entire game. What it subclasses, MonoBehaviour, is from the Unity engine; this is a variety of GameObject, which is the first object created when a Unity game boots up. It is this object, and this object only for Rain World, that can actually call Unity routines, or interact with Unity in any way. By its nature, it is also the head of the call stack that leads to the update loop that provides for actual gameplay. The full tree initializations is:</p><ul>
 <li><a class="el" href="classRainWorld.html">RainWorld</a> (singleton initialized by Unity engine)<ul>
 <li><a class="el" href="classProcessManager.html">ProcessManager</a> (singleton initialized by <a class="el" href="classRainWorld.html#aab1b388e532d43909e43a492ccabe4c1">RainWorld.Update</a>)<ul>
 <li><a class="el" href="classRainWorldGame.html">RainWorldGame</a> (singleton initialized by <a class="el" href="classProcessManager.html#a5e2541ebf71b6b304b1126514787e957">ProcessManager.SwitchMainProcess</a> every cycle)<ul>
@@ -227,8 +227,11 @@ Private Attributes</h2></td></tr>
 <li><a class="el" href="classWorld.html">World</a> (initialized by <a class="el" href="classOverWorld.html#a70e7e8e1c09f1878ecfec9f52ca71460">OverWorld.WorldLoaded</a>)</li>
 </ul>
 </li>
-<li><a class="el" href="classPlayer.html">Player</a></li>
-<li><a class="el" href="classRoomCamera.html">RoomCamera</a> (TODO: finish this call stack with descriptions, then do update stack) </li>
+<li><a class="el" href="classAbstractCreature.html">AbstractCreature</a> (initialized by <a class="el" href="classRainWorldGame.html#aacb1db900687aec3fcccaf6c50bd0de8">RainWorldGame.RainWorldGame</a>)<ul>
+<li><a class="el" href="classPlayer.html">Player</a> (initialized by <a class="el" href="classAbstractCreature.html#a2873b84f1d3beffa7fad4b8c90817dc9">AbstractCreature.Realize</a> when creatureTemplate.TopAncestor().type is <a class="el" href="classCreatureTemplate.html#a6ed244713523d6027a25407415ae7d25a9952f02274b412eaeb15c788ae5f01ff">CreatureTemplate.Type.Slugcat</a>)</li>
+</ul>
+</li>
+<li><a class="el" href="classRoomCamera.html">RoomCamera</a> (initialized by <a class="el" href="classRainWorldGame.html#aacb1db900687aec3fcccaf6c50bd0de8">RainWorldGame.RainWorldGame</a>)</li>
 </ul>
 </li>
 </ul>
@@ -236,6 +239,37 @@ Private Attributes</h2></td></tr>
 </ul>
 </li>
 </ul>
+<p >See each class's description for its detailed role in the chain. There is a similar tree for frame-by-frame updates:</p><ul>
+<li><a class="el" href="classRainWorld.html#aab1b388e532d43909e43a492ccabe4c1">RainWorld.Update</a> (called by the Unity engine)<ul>
+<li>ProcessManaer.Update<ul>
+<li><a class="el" href="classRainWorldGame.html#af674200554f513b1d4a71a16410cfff9">RainWorldGame.RawUpdate</a> (every "fixed" frame, RainWorld.evenUpdate bool alternating between updates)<ul>
+<li><a class="el" href="classRainWorldGame.html#ab167e9c09d338d0c8c0304d25035e757">RainWorldGame.Update</a><ul>
+<li><a class="el" href="classRoom.html#a793b25cc4228de50379d67031c3eb286">Room.Update</a><ul>
+<li>UpdateableAndDeletable.Update</li>
+<li><a class="el" href="classGraphicsModule.html#af10add8fcfe686d6e48ff8a7d6e783c5">GraphicsModule.Update</a></li>
+<li><a class="el" href="classPhysicalObject.html#a3b99f717f273a915f42e0bb87045a070">PhysicalObject.GraphicsModuleUpdated</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="el" href="classRainWorldGame.html#a3054772bd75561ae01a4bc70a84e8e3d">RainWorldGame.GrafUpdate</a><ul>
+<li>RoomUpdate.DrawUpdate<ul>
+<li>SpriteLeaser<ul>
+<li><a class="el" href="interfaceIDrawable.html#a33604ee66616fa650ffc700e62b552a3">IDrawable.DrawSprites</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p >(TODO: Validate update tree. Add descriptions for updates distributed over lists.) </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="af3b1430f8fb83f2926ed6ec20b4bed27" name="af3b1430f8fb83f2926ed6ec20b4bed27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3b1430f8fb83f2926ed6ec20b4bed27">&#9670;&nbsp;</a></span>AchievementID</h2>
