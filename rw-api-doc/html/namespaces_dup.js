@@ -1,0 +1,25 @@
+var namespaces_dup =
+[
+    [ "ArenaBehaviors", "de/d73/namespaceArenaBehaviors.html", "de/d73/namespaceArenaBehaviors" ],
+    [ "AssemblyCSharp", "d9/dea/namespaceAssemblyCSharp.html", "d9/dea/namespaceAssemblyCSharp" ],
+    [ "CoralBrain", "d9/d6a/namespaceCoralBrain.html", "d9/d6a/namespaceCoralBrain" ],
+    [ "DevInterface", "d5/d97/namespaceDevInterface.html", "d5/d97/namespaceDevInterface" ],
+    [ "Expedition", "d6/dd6/namespaceExpedition.html", "d6/dd6/namespaceExpedition" ],
+    [ "HUD", "d0/d20/namespaceHUD.html", "d0/d20/namespaceHUD" ],
+    [ "JollyCoop", "da/d54/namespaceJollyCoop.html", "da/d54/namespaceJollyCoop" ],
+    [ "LizardCosmetics", "de/d2b/namespaceLizardCosmetics.html", "de/d2b/namespaceLizardCosmetics" ],
+    [ "Menu", "d6/d9a/namespaceMenu.html", "d6/d9a/namespaceMenu" ],
+    [ "Microsoft", "d2/df0/namespaceMicrosoft.html", "d2/df0/namespaceMicrosoft" ],
+    [ "MoreSlugcats", "d2/d4f/namespaceMoreSlugcats.html", "d2/d4f/namespaceMoreSlugcats" ],
+    [ "Music", "de/d59/namespaceMusic.html", "de/d59/namespaceMusic" ],
+    [ "Noise", "db/dd7/namespaceNoise.html", "db/dd7/namespaceNoise" ],
+    [ "OverseerHolograms", "d0/d79/namespaceOverseerHolograms.html", "d0/d79/namespaceOverseerHolograms" ],
+    [ "RWCustom", "d5/d3f/namespaceRWCustom.html", "d5/d3f/namespaceRWCustom" ],
+    [ "ScavengerCosmetic", "dc/da5/namespaceScavengerCosmetic.html", "dc/da5/namespaceScavengerCosmetic" ],
+    [ "ScavTradeInstruction", "da/df2/namespaceScavTradeInstruction.html", "da/df2/namespaceScavTradeInstruction" ],
+    [ "Smoke", "d2/d12/namespaceSmoke.html", "d2/d12/namespaceSmoke" ],
+    [ "SplashWater", "dd/d7f/namespaceSplashWater.html", "dd/d7f/namespaceSplashWater" ],
+    [ "Stove", "dd/d07/namespaceStove.html", "dd/d07/namespaceStove" ],
+    [ "System", "d6/d27/namespaceSystem.html", "d6/d27/namespaceSystem" ],
+    [ "VoidSea", "d2/d9e/namespaceVoidSea.html", "d2/d9e/namespaceVoidSea" ]
+];
